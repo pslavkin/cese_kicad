@@ -1,0 +1,6 @@
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"C1";"CP_Radial_D12.5mm_P2.50mm";1;"100n";;;
+2;"D1";"LED_D3.0mm-3";1;"led rojo 3mm";;;
+3;"D2";"D_DO-34_SOD68_P7.62mm_Horizontal";1;"1N4148";;;
+4;"J1";"PinHeader_1x03_P2.54mm_Vertical";1;"Conn_01x03";;;
+5;"R1";"R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal";1;"100k";;;
