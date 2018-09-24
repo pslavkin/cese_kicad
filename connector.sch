@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 3
+Sheet 2 3
 Title "PaP"
 Date "2018-09-21"
 Rev "1.0"
@@ -17,284 +17,395 @@ $EndDescr
 $Comp
 L Connector_Generic:Conn_01x02 J1
 U 1 1 5BA7B68B
-P 1750 5050
-F 0 "J1" H 1670 4725 50  0000 C CNN
-F 1 "Conn_01x02" H 1670 4816 50  0000 C CNN
-F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal" H 1750 5050 50  0001 C CNN
-F 3 "~" H 1750 5050 50  0001 C CNN
-	1    1750 5050
+P 4100 4950
+F 0 "J1" H 4020 4625 50  0000 C CNN
+F 1 "Conn_01x02" H 4020 4716 50  0000 C CNN
+F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal" H 4100 4950 50  0001 C CNN
+F 3 "~" H 4100 4950 50  0001 C CNN
+	1    4100 4950
 	-1   0    0    1   
 $EndComp
 $Comp
 L schematic.lib:85V #PWR?
 U 1 1 5BA7B80E
-P 2300 4850
+P 4500 4700
 AR Path="/5BA7B80E" Ref="#PWR?"  Part="1" 
 AR Path="/5BA6E5CE/5BA7B80E" Ref="#PWR0108"  Part="1" 
-F 0 "#PWR0108" H 2300 4750 50  0001 C CNN
-F 1 "85V" H 2300 5125 50  0000 C CNN
-F 2 "" H 2300 4850 50  0001 C CNN
-F 3 "" H 2300 4850 50  0001 C CNN
-	1    2300 4850
+F 0 "#PWR0108" H 4500 4600 50  0001 C CNN
+F 1 "85V" H 4500 4975 50  0000 C CNN
+F 2 "" H 4500 4700 50  0001 C CNN
+F 3 "" H 4500 4700 50  0001 C CNN
+	1    4500 4700
 	1    0    0    -1  
 $EndComp
 $Comp
 L schematic.lib:G85V #PWR?
 U 1 1 5BA7B814
-P 2300 5150
+P 4450 5450
 AR Path="/5BA7B814" Ref="#PWR?"  Part="1" 
 AR Path="/5BA6E5CE/5BA7B814" Ref="#PWR0109"  Part="1" 
-F 0 "#PWR0109" H 2300 4900 50  0001 C CNN
-F 1 "G85V" H 2305 4977 50  0000 C CNN
-F 2 "" H 2300 5150 50  0001 C CNN
-F 3 "" H 2300 5150 50  0001 C CNN
-	1    2300 5150
-	1    0    0    -1  
-$EndComp
-$Comp
-L schematic.lib:15V #PWR0110
-U 1 1 5BA7B81A
-P 5550 3600
-F 0 "#PWR0110" H 5550 3500 50  0001 C CNN
-F 1 "15V" H 5550 3875 50  0000 C CNN
-F 2 "" H 5550 3600 50  0001 C CNN
-F 3 "" H 5550 3600 50  0001 C CNN
-	1    5550 3600
-	1    0    0    -1  
-$EndComp
-$Comp
-L schematic.lib:G15V #PWR0111
-U 1 1 5BA7B820
-P 5550 3800
-F 0 "#PWR0111" H 5550 3550 50  0001 C CNN
-F 1 "G15V" H 5555 3627 50  0000 C CNN
-F 2 "" H 5550 3800 50  0001 C CNN
-F 3 "" H 5550 3800 50  0001 C CNN
-	1    5550 3800
-	1    0    0    -1  
-$EndComp
-$Comp
-L schematic.lib:100V #PWR0112
-U 1 1 5BA7B826
-P 6050 3600
-F 0 "#PWR0112" H 6050 3500 50  0001 C CNN
-F 1 "100V" H 6050 3875 50  0000 C CNN
-F 2 "" H 6050 3600 50  0001 C CNN
-F 3 "" H 6050 3600 50  0001 C CNN
-	1    6050 3600
-	1    0    0    -1  
-$EndComp
-$Comp
-L schematic.lib:3V3 #PWR0113
-U 1 1 5BA7B82C
-P 5300 3600
-F 0 "#PWR0113" H 5300 3500 50  0001 C CNN
-F 1 "3V3" H 5300 3875 50  0000 C CNN
-F 2 "" H 5300 3600 50  0001 C CNN
-F 3 "" H 5300 3600 50  0001 C CNN
-	1    5300 3600
-	1    0    0    -1  
-$EndComp
-$Comp
-L schematic.lib:G3V3 #PWR0114
-U 1 1 5BA7B832
-P 5300 3800
-F 0 "#PWR0114" H 5300 3550 50  0001 C CNN
-F 1 "G3V3" H 5305 3627 50  0000 C CNN
-F 2 "" H 5300 3800 50  0001 C CNN
-F 3 "" H 5300 3800 50  0001 C CNN
-	1    5300 3800
+F 0 "#PWR0109" H 4450 5200 50  0001 C CNN
+F 1 "G85V" H 4455 5277 50  0000 C CNN
+F 2 "" H 4450 5450 50  0001 C CNN
+F 3 "" H 4450 5450 50  0001 C CNN
+	1    4450 5450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1950 5050 2300 5050
+	4300 4950 4500 4950
 Wire Wire Line
-	2300 5050 2300 5150
+	4300 4850 4500 4850
 Wire Wire Line
-	1950 4950 2300 4950
-Wire Wire Line
-	2300 4950 2300 4850
+	4500 4850 4500 4700
 $Comp
 L Diode:SM4007 D1
 U 1 1 5BA7B8EB
-P 2700 5000
-F 0 "D1" V 2654 5079 50  0000 L CNN
-F 1 "SM4007" V 2745 5079 50  0000 L CNN
-F 2 "Diode_SMD:D_MELF" H 2700 4825 50  0001 C CNN
-F 3 "http://cdn-reichelt.de/documents/datenblatt/A400/SMD1N400%23DIO.pdf" H 2700 5000 50  0001 C CNN
-	1    2700 5000
+P 5100 5100
+F 0 "D1" V 5054 5179 50  0000 L CNN
+F 1 "SM4007" V 5145 5179 50  0000 L CNN
+F 2 "Diode_SMD:D_MELF" H 5100 4925 50  0001 C CNN
+F 3 "http://cdn-reichelt.de/documents/datenblatt/A400/SMD1N400%23DIO.pdf" H 5100 5100 50  0001 C CNN
+	1    5100 5100
 	0    1    1    0   
 $EndComp
 $Comp
 L schematic.lib:85V #PWR?
 U 1 1 5BA7B9F4
-P 2700 4850
+P 5100 4950
 AR Path="/5BA7B9F4" Ref="#PWR?"  Part="1" 
 AR Path="/5BA6E5CE/5BA7B9F4" Ref="#PWR0115"  Part="1" 
-F 0 "#PWR0115" H 2700 4750 50  0001 C CNN
-F 1 "85V" H 2700 5125 50  0000 C CNN
-F 2 "" H 2700 4850 50  0001 C CNN
-F 3 "" H 2700 4850 50  0001 C CNN
-	1    2700 4850
+F 0 "#PWR0115" H 5100 4850 50  0001 C CNN
+F 1 "85V" H 5100 5225 50  0000 C CNN
+F 2 "" H 5100 4950 50  0001 C CNN
+F 3 "" H 5100 4950 50  0001 C CNN
+	1    5100 4950
 	1    0    0    -1  
 $EndComp
 $Comp
 L schematic.lib:G85V #PWR?
 U 1 1 5BA7BA05
-P 2700 5150
+P 5100 5250
 AR Path="/5BA7BA05" Ref="#PWR?"  Part="1" 
 AR Path="/5BA6E5CE/5BA7BA05" Ref="#PWR0116"  Part="1" 
-F 0 "#PWR0116" H 2700 4900 50  0001 C CNN
-F 1 "G85V" H 2705 4977 50  0000 C CNN
-F 2 "" H 2700 5150 50  0001 C CNN
-F 3 "" H 2700 5150 50  0001 C CNN
-	1    2700 5150
+F 0 "#PWR0116" H 5100 5000 50  0001 C CNN
+F 1 "G85V" H 5105 5077 50  0000 C CNN
+F 2 "" H 5100 5250 50  0001 C CNN
+F 3 "" H 5100 5250 50  0001 C CNN
+	1    5100 5250
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:RJ45 J4
 U 1 1 5BC92CB9
-P 1900 2500
-F 0 "J4" V 2002 3030 50  0000 L CNN
-F 1 "RJ45" V 1911 3030 50  0000 L CNN
-F 2 "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal" V 1900 2525 50  0001 C CNN
-F 3 "~" V 1900 2525 50  0001 C CNN
-	1    1900 2500
+P 2450 2950
+F 0 "J4" V 2552 3480 50  0000 L CNN
+F 1 "RJ45" V 2461 3480 50  0000 L CNN
+F 2 "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal" V 2450 2975 50  0001 C CNN
+F 3 "~" V 2450 2975 50  0001 C CNN
+	1    2450 2950
 	0    1    -1   0   
 $EndComp
 $Comp
 L Connector:RJ45 J5
 U 1 1 5BC92E91
-P 3250 2500
-F 0 "J5" V 3352 2070 50  0000 R CNN
-F 1 "RJ45" V 3261 2070 50  0000 R CNN
-F 2 "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal" V 3250 2525 50  0001 C CNN
-F 3 "~" V 3250 2525 50  0001 C CNN
-	1    3250 2500
+P 3800 2950
+F 0 "J5" V 3902 2520 50  0000 R CNN
+F 1 "RJ45" V 3811 2520 50  0000 R CNN
+F 2 "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal" V 3800 2975 50  0001 C CNN
+F 3 "~" V 3800 2975 50  0001 C CNN
+	1    3800 2950
 	0    -1   -1   0   
 $EndComp
-Text HLabel 1600 1700 1    50   Input ~ 0
+Text HLabel 2150 1700 1    50   Input ~ 0
 CS
-Text HLabel 1700 1700 1    50   Input ~ 0
+Text HLabel 2250 1700 1    50   Input ~ 0
 CLK
-Text HLabel 1800 1700 1    50   Input ~ 0
+Text HLabel 2350 1700 1    50   Input ~ 0
 SDI
-Text HLabel 2200 1700 1    50   Input ~ 0
-Busy
-Text HLabel 2200 3800 2    50   Input ~ 0
+Text HLabel 7400 1950 2    50   Input ~ 0
 Pulse
-Text HLabel 2200 3900 2    50   Input ~ 0
+Text HLabel 7400 2050 2    50   Input ~ 0
 Switch
 $Comp
 L schematic.lib:G3V3 #PWR0117
 U 1 1 5BC93CC7
-P 2400 1650
-F 0 "#PWR0117" H 2400 1400 50  0001 C CNN
-F 1 "G3V3" H 2405 1477 50  0000 C CNN
-F 2 "" H 2400 1650 50  0001 C CNN
-F 3 "" H 2400 1650 50  0001 C CNN
-	1    2400 1650
+P 2950 2350
+F 0 "#PWR0117" H 2950 2100 50  0001 C CNN
+F 1 "G3V3" H 2955 2177 50  0000 C CNN
+F 2 "" H 2950 2350 50  0001 C CNN
+F 3 "" H 2950 2350 50  0001 C CNN
+	1    2950 2350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2300 2100 2300 1600
+	2850 2550 2850 2300
 Wire Wire Line
-	2300 1600 2400 1600
+	2850 2300 2950 2300
 Wire Wire Line
-	2400 1600 2400 1650
+	2950 2300 2950 2350
 Wire Wire Line
-	1600 2100 1600 1700
-Wire Wire Line
-	1700 1700 1700 2100
-Wire Wire Line
-	1800 2100 1800 1700
+	2350 2550 2350 1700
 $Comp
 L Connector_Generic:Conn_01x04 J3
 U 1 1 5BC94397
-P 1800 6000
-F 0 "J3" H 1720 5575 50  0000 C CNN
-F 1 "Conn_01x04" H 1720 5666 50  0000 C CNN
-F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_4-G-5,08_1x04_P5.08mm_Horizontal" H 1800 6000 50  0001 C CNN
-F 3 "~" H 1800 6000 50  0001 C CNN
-	1    1800 6000
+P 2050 5150
+F 0 "J3" H 1970 4725 50  0000 C CNN
+F 1 "Conn_01x04" H 1970 4816 50  0000 C CNN
+F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_4-G-5,08_1x04_P5.08mm_Horizontal" H 2050 5150 50  0001 C CNN
+F 3 "~" H 2050 5150 50  0001 C CNN
+	1    2050 5150
 	-1   0    0    1   
 $EndComp
-Text HLabel 2150 5900 2    50   Input ~ 0
+Text HLabel 2400 5050 2    50   Input ~ 0
 MotorB2
-Text HLabel 2150 6000 2    50   Input ~ 0
+Text HLabel 2400 5150 2    50   Input ~ 0
 MotorA2
-Text HLabel 2150 6100 2    50   Input ~ 0
+Text HLabel 2400 5250 2    50   Input ~ 0
 MotorA1
-Text HLabel 2150 5800 2    50   Input ~ 0
+Text HLabel 2400 4950 2    50   Input ~ 0
 MotorB1
 Wire Wire Line
-	2150 5800 2000 5800
+	2400 4950 2250 4950
 Wire Wire Line
-	2000 5900 2150 5900
+	2250 5050 2400 5050
 Wire Wire Line
-	2150 6000 2000 6000
+	2400 5150 2250 5150
 Wire Wire Line
-	2150 6100 2000 6100
+	2400 5250 2250 5250
 $Comp
 L Connector_Generic:Conn_01x04 J2
 U 1 1 5BC9A7B0
-P 1800 4000
-F 0 "J2" H 1720 3575 50  0000 C CNN
-F 1 "Conn_01x04" H 1720 3666 50  0000 C CNN
-F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_4-G-5,08_1x04_P5.08mm_Horizontal" H 1800 4000 50  0001 C CNN
-F 3 "~" H 1800 4000 50  0001 C CNN
-	1    1800 4000
+P 7000 2150
+F 0 "J2" H 6920 1725 50  0000 C CNN
+F 1 "Conn_01x04" H 6920 1816 50  0000 C CNN
+F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_4-G-5,08_1x04_P5.08mm_Horizontal" H 7000 2150 50  0001 C CNN
+F 3 "~" H 7000 2150 50  0001 C CNN
+	1    7000 2150
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	2000 3900 2200 3900
+	7200 2050 7400 2050
 Wire Wire Line
-	2000 3800 2200 3800
-Wire Wire Line
-	2200 2100 2200 1700
-Text HLabel 2850 1700 1    50   Input ~ 0
-CS
-Text HLabel 2950 1700 1    50   Input ~ 0
-CLK
-Text HLabel 3050 1700 1    50   Input ~ 0
+	7200 1950 7400 1950
+Text HLabel 3600 1700 1    50   Input ~ 0
 SDO
-Text HLabel 3450 1700 1    50   Input ~ 0
-Busy
 Wire Wire Line
-	2850 2100 2850 1700
-Wire Wire Line
-	2950 1700 2950 2100
-Wire Wire Line
-	3050 2100 3050 1700
-Wire Wire Line
-	3450 2100 3450 1700
+	3600 2550 3600 1700
 $Comp
 L schematic.lib:G3V3 #PWR0118
 U 1 1 5BC9BC97
-P 3650 1650
-F 0 "#PWR0118" H 3650 1400 50  0001 C CNN
-F 1 "G3V3" H 3655 1477 50  0000 C CNN
-F 2 "" H 3650 1650 50  0001 C CNN
-F 3 "" H 3650 1650 50  0001 C CNN
-	1    3650 1650
+P 4200 2350
+F 0 "#PWR0118" H 4200 2100 50  0001 C CNN
+F 1 "G3V3" H 4205 2177 50  0000 C CNN
+F 2 "" H 4200 2350 50  0001 C CNN
+F 3 "" H 4200 2350 50  0001 C CNN
+	1    4200 2350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3550 2100 3550 1600
+	4100 2550 4100 2300
 Wire Wire Line
-	3550 1600 3650 1600
+	4100 2300 4200 2300
 Wire Wire Line
-	3650 1600 3650 1650
+	4200 2300 4200 2350
 Wire Wire Line
-	1900 1300 3150 1300
+	2450 2200 3700 2200
 Wire Wire Line
-	1900 1300 1900 2100
+	2450 2200 2450 2550
 Wire Wire Line
-	3150 1300 3150 2100
-NoConn ~ 2000 4000
-NoConn ~ 2000 4100
-NoConn ~ 2000 2100
-NoConn ~ 2100 2100
-NoConn ~ 3250 2100
-NoConn ~ 3350 2100
+	3700 2200 3700 2550
+NoConn ~ 7200 2250
+NoConn ~ 2550 2550
+NoConn ~ 2650 2550
+NoConn ~ 3800 2550
+NoConn ~ 3900 2550
+Text Notes 2300 3550 0    50   ~ 0
+Decido hacer el cruce de SPI en las fichas \ny no en el cable, de modo que los cables son\nsiempre rectos\n
+Text Notes 1700 900  0    197  ~ 39
+Cadena SPI con RJ45
+Text Notes 5800 1600 0    197  ~ 39
+Coneccion individual\n
+Text Notes 1650 4500 0    197  ~ 39
+Potencia
+Text Notes 4050 4350 0    197  ~ 39
+Alimentacion
+$Comp
+L Device:CP C?
+U 1 1 5BDFE583
+P 5650 5050
+AR Path="/5BA6E8FB/5BDFE583" Ref="C?"  Part="1" 
+AR Path="/5BA6E5CE/5BDFE583" Ref="C7"  Part="1" 
+F 0 "C7" H 5768 5096 50  0000 L CNN
+F 1 "100uFx100v" V 5750 4850 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm" H 5688 4900 50  0001 C CNN
+F 3 "~" H 5650 5050 50  0001 C CNN
+	1    5650 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L schematic.lib:85V #PWR?
+U 1 1 5BDFE58A
+P 5650 4900
+AR Path="/5BDFE58A" Ref="#PWR?"  Part="1" 
+AR Path="/5BA6E8FB/5BDFE58A" Ref="#PWR?"  Part="1" 
+AR Path="/5BA6E5CE/5BDFE58A" Ref="#PWR0101"  Part="1" 
+F 0 "#PWR0101" H 5650 4800 50  0001 C CNN
+F 1 "85V" H 5650 5175 50  0000 C CNN
+F 2 "" H 5650 4900 50  0001 C CNN
+F 3 "" H 5650 4900 50  0001 C CNN
+	1    5650 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L schematic.lib:G85V #PWR?
+U 1 1 5BDFE590
+P 5650 5200
+AR Path="/5BDFE590" Ref="#PWR?"  Part="1" 
+AR Path="/5BA6E8FB/5BDFE590" Ref="#PWR?"  Part="1" 
+AR Path="/5BA6E5CE/5BDFE590" Ref="#PWR0102"  Part="1" 
+F 0 "#PWR0102" H 5650 4950 50  0001 C CNN
+F 1 "G85V" H 5655 5027 50  0000 C CNN
+F 2 "" H 5650 5200 50  0001 C CNN
+F 3 "" H 5650 5200 50  0001 C CNN
+	1    5650 5200
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	1450 5500 3400 5500
+Wire Notes Line
+	3400 5500 3400 3850
+Wire Notes Line
+	3400 3850 1450 3850
+Wire Notes Line
+	1450 3850 1450 5500
+Wire Notes Line
+	4700 600  950  600 
+Wire Notes Line
+	1500 1050 1500 3650
+Wire Notes Line
+	5650 1100 5650 2750
+Wire Notes Line
+	5650 2750 9400 2750
+Wire Notes Line
+	5650 1100 9400 1100
+Wire Notes Line
+	9400 1100 9400 2750
+Wire Notes Line
+	5250 1050 5250 3650
+Wire Notes Line
+	1500 3650 5250 3650
+Text Notes 7800 2050 0    50   ~ 0
+El fin de carrera y el step es individual \npor modulo asi que va por fuera \nde la cadena SPI\n
+Text Notes 5350 5750 0    50   ~ 0
+segun las pruebas con 200uF \nsera suficiente para un ripple aceptable\n 
+Text HLabel 7400 2150 2    50   Input ~ 0
+Busy
+Wire Wire Line
+	7400 2150 7200 2150
+Text Notes 7800 2250 0    50   ~ 0
+El busy si se usa como salida para \nmanejar pulso a otro driver es individual
+Wire Wire Line
+	2750 2100 4000 2100
+Wire Wire Line
+	4000 2100 4000 2550
+Wire Wire Line
+	3400 1700 3400 2550
+Wire Wire Line
+	3500 1700 3500 2550
+Text HLabel 2750 1700 1    50   Input ~ 0
+Busy
+$Comp
+L Jumper:SolderJumper_2_Open JP1
+U 1 1 5BE0DECD
+P 2750 1900
+F 0 "JP1" V 2704 1968 50  0000 L CNN
+F 1 "jumper" V 2795 1968 50  0000 L CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 2750 1900 50  0001 C CNN
+F 3 "~" H 2750 1900 50  0001 C CNN
+	1    2750 1900
+	0    1    1    0   
+$EndComp
+Text Notes 2550 1450 0    50   ~ 0
+si busy va de step, \nno va en cadena SPI, \nsino en conector individual\n
+Wire Wire Line
+	2750 2100 2750 2550
+Wire Wire Line
+	2750 1750 2750 1700
+Wire Wire Line
+	2750 2050 2750 2100
+Connection ~ 2750 2100
+Wire Wire Line
+	2250 1700 2250 2550
+Wire Wire Line
+	2150 1700 2150 2550
+Text HLabel 3400 1700 1    50   Input ~ 0
+CS
+Text HLabel 3500 1700 1    50   Input ~ 0
+CLK
+$Comp
+L Device:CP C?
+U 1 1 5BE152B2
+P 6000 5050
+AR Path="/5BA6E8FB/5BE152B2" Ref="C?"  Part="1" 
+AR Path="/5BA6E5CE/5BE152B2" Ref="C8"  Part="1" 
+F 0 "C8" H 6118 5096 50  0000 L CNN
+F 1 "100uFx100v" V 6150 4900 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm" H 6038 4900 50  0001 C CNN
+F 3 "~" H 6000 5050 50  0001 C CNN
+	1    6000 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L schematic.lib:85V #PWR?
+U 1 1 5BE152B8
+P 6000 4900
+AR Path="/5BE152B8" Ref="#PWR?"  Part="1" 
+AR Path="/5BA6E8FB/5BE152B8" Ref="#PWR?"  Part="1" 
+AR Path="/5BA6E5CE/5BE152B8" Ref="#PWR0103"  Part="1" 
+F 0 "#PWR0103" H 6000 4800 50  0001 C CNN
+F 1 "85V" H 6000 5175 50  0000 C CNN
+F 2 "" H 6000 4900 50  0001 C CNN
+F 3 "" H 6000 4900 50  0001 C CNN
+	1    6000 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L schematic.lib:G85V #PWR?
+U 1 1 5BE152BE
+P 6000 5200
+AR Path="/5BE152BE" Ref="#PWR?"  Part="1" 
+AR Path="/5BA6E8FB/5BE152BE" Ref="#PWR?"  Part="1" 
+AR Path="/5BA6E5CE/5BE152BE" Ref="#PWR0104"  Part="1" 
+F 0 "#PWR0104" H 6000 4950 50  0001 C CNN
+F 1 "G85V" H 6005 5027 50  0000 C CNN
+F 2 "" H 6000 5200 50  0001 C CNN
+F 3 "" H 6000 5200 50  0001 C CNN
+	1    6000 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J6
+U 1 1 5BE15A46
+P 4100 5400
+F 0 "J6" H 4020 5075 50  0000 C CNN
+F 1 "Conn_01x02" H 4020 5166 50  0000 C CNN
+F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal" H 4100 5400 50  0001 C CNN
+F 3 "~" H 4100 5400 50  0001 C CNN
+	1    4100 5400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4300 5400 4450 5400
+Wire Wire Line
+	4450 5400 4450 5450
+Wire Wire Line
+	4500 4950 4500 4850
+Connection ~ 4500 4850
+Wire Wire Line
+	4300 5300 4450 5300
+Wire Wire Line
+	4450 5300 4450 5400
+Connection ~ 4450 5400
+Text Notes 3800 6100 0    50   ~ 0
+Contemplo doble pin del conector para\npositivo y doble para negativo para \npermitir encadenar alimentacion y/o suplir\nmas corriente\n
 $EndSCHEMATC
