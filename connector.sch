@@ -148,21 +148,21 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_01x04 J3
 U 1 1 5BC94397
-P 2050 5150
-F 0 "J3" H 1970 4725 50  0000 C CNN
-F 1 "Conn_01x04" H 1970 4816 50  0000 C CNN
-F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_4-G-5,08_1x04_P5.08mm_Horizontal" H 2050 5150 50  0001 C CNN
-F 3 "~" H 2050 5150 50  0001 C CNN
-	1    2050 5150
-	-1   0    0    1   
+P 2050 5050
+F 0 "J3" H 1970 4625 50  0000 C CNN
+F 1 "Conn_01x04" H 1970 4716 50  0000 C CNN
+F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_4-G-5,08_1x04_P5.08mm_Horizontal" H 2050 5050 50  0001 C CNN
+F 3 "~" H 2050 5050 50  0001 C CNN
+	1    2050 5050
+	-1   0    0    -1  
 $EndComp
-Text HLabel 2400 5050 2    50   Input ~ 0
-MotorB2
-Text HLabel 2400 5150 2    50   Input ~ 0
-MotorA2
-Text HLabel 2400 5250 2    50   Input ~ 0
-MotorA1
 Text HLabel 2400 4950 2    50   Input ~ 0
+MotorB2
+Text HLabel 2400 5250 2    50   Input ~ 0
+MotorA2
+Text HLabel 2400 5150 2    50   Input ~ 0
+MotorA1
+Text HLabel 2400 5050 2    50   Input ~ 0
 MotorB1
 Wire Wire Line
 	2400 4950 2250 4950
@@ -215,9 +215,7 @@ Wire Wire Line
 Wire Wire Line
 	3700 2200 3700 2550
 NoConn ~ 7200 2250
-NoConn ~ 2550 2550
 NoConn ~ 2650 2550
-NoConn ~ 3800 2550
 NoConn ~ 3900 2550
 Text Notes 2300 3550 0    50   ~ 0
 Decido hacer el cruce de SPI en las fichas \ny no en el cable, de modo que los cables son\nsiempre rectos\n
@@ -325,7 +323,7 @@ F 3 "~" H 2750 1900 50  0001 C CNN
 	1    2750 1900
 	0    1    1    0   
 $EndComp
-Text Notes 2550 1450 0    50   ~ 0
+Text Notes 2700 1350 0    50   ~ 0
 si busy va de step, \nno va en cadena SPI, \nsino en conector individual\n
 Wire Wire Line
 	2750 2100 2750 2550
@@ -408,4 +406,12 @@ Wire Wire Line
 Connection ~ 4450 5400
 Text Notes 3800 6100 0    50   ~ 0
 Contemplo doble pin del conector para\npositivo y doble para negativo para \npermitir encadenar alimentacion y/o suplir\nmas corriente\n
+Text HLabel 3800 1700 1    50   Input ~ 0
+CLKIN
+Wire Wire Line
+	3800 1700 3800 2550
+Text HLabel 2550 1700 1    50   Input ~ 0
+CLKIN
+Wire Wire Line
+	2550 1700 2550 2550
 $EndSCHEMATC
