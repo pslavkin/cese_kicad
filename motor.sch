@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:pap-cache
 EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
@@ -74,7 +73,7 @@ Wire Wire Line
 Wire Wire Line
 	8950 3600 8800 3600
 $Comp
-L schematic.lib:85V #PWR?
+L pap:85V #PWR?
 U 1 1 5BA6F2D7
 P 9400 3600
 AR Path="/5BA6F2D7" Ref="#PWR?"  Part="1" 
@@ -100,7 +99,7 @@ Wire Wire Line
 Wire Wire Line
 	8800 4400 8800 3950
 $Comp
-L schematic.lib:85V #PWR?
+L pap:85V #PWR?
 U 1 1 5BA70B2F
 P 8400 3600
 AR Path="/5BA70B2F" Ref="#PWR?"  Part="1" 
@@ -117,7 +116,7 @@ Wire Wire Line
 Wire Wire Line
 	7000 4000 7150 4000
 $Comp
-L schematic.lib:3V3 #PWR?
+L pap:3V3 #PWR?
 U 1 1 5BA71FD4
 P 8200 3600
 AR Path="/5BA71FD4" Ref="#PWR?"  Part="1" 
@@ -170,7 +169,7 @@ Wire Wire Line
 	10700 8800 10700 8850
 Connection ~ 10350 8800
 $Comp
-L schematic.lib:85V #PWR?
+L pap:85V #PWR?
 U 1 1 5BA7823D
 P 10350 8400
 AR Path="/5BA7823D" Ref="#PWR?"  Part="1" 
@@ -183,7 +182,7 @@ F 3 "" H 10350 8400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L schematic.lib:G85V #PWR?
+L pap:G85V #PWR?
 U 1 1 5BA78330
 P 10350 9250
 AR Path="/5BA78330" Ref="#PWR?"  Part="1" 
@@ -196,7 +195,7 @@ F 3 "" H 10350 9250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L schematic.lib:G85V #PWR?
+L pap:G85V #PWR?
 U 1 1 5BA7866F
 P 10700 9250
 AR Path="/5BA7866F" Ref="#PWR?"  Part="1" 
@@ -261,7 +260,7 @@ Wire Wire Line
 	7300 6250 5750 6250
 Connection ~ 5750 6250
 $Comp
-L schematic.lib:G85V #PWR?
+L pap:G85V #PWR?
 U 1 1 5BAB2AA9
 P 7350 3400
 AR Path="/5BAB2AA9" Ref="#PWR?"  Part="1" 
@@ -319,14 +318,14 @@ U 1 1 5BB4A4AE
 P 5050 6650
 F 0 "R4" H 5120 6696 50  0000 L CNN
 F 1 "R" H 5120 6605 50  0000 L CNN
-F 2 "Resistor_SMD:R_1812_4532Metric_Pad1.30x3.40mm_HandSolder" V 4980 6650 50  0001 C CNN
+F 2 "Resistor_SMD:R_2816_7142Metric_Pad3.20x4.45mm_HandSolder" V 4980 6650 50  0001 C CNN
 F 3 "~" H 5050 6650 50  0001 C CNN
 	1    5050 6650
 	1    0    0    -1  
 $EndComp
 Connection ~ 5050 6050
 $Comp
-L schematic.lib:G85V #PWR?
+L pap:G85V #PWR?
 U 1 1 5BB52220
 P 5050 6850
 AR Path="/5BB52220" Ref="#PWR?"  Part="1" 
@@ -359,13 +358,13 @@ U 1 1 5BC3AA5F
 P 4800 1350
 F 0 "R3" H 4870 1396 50  0000 L CNN
 F 1 "R" H 4870 1305 50  0000 L CNN
-F 2 "Resistor_SMD:R_1812_4532Metric_Pad1.30x3.40mm_HandSolder" V 4730 1350 50  0001 C CNN
+F 2 "Resistor_SMD:R_2816_7142Metric_Pad3.20x4.45mm_HandSolder" V 4730 1350 50  0001 C CNN
 F 3 "~" H 4800 1350 50  0001 C CNN
 	1    4800 1350
 	1    0    0    -1  
 $EndComp
 $Comp
-L schematic.lib:G85V #PWR?
+L pap:G85V #PWR?
 U 1 1 5BC3AA66
 P 4800 1550
 AR Path="/5BC3AA66" Ref="#PWR?"  Part="1" 
@@ -413,7 +412,7 @@ Wire Wire Line
 Wire Wire Line
 	3150 3600 2650 3600
 $Comp
-L schematic.lib:3V3 #PWR?
+L pap:3V3 #PWR?
 U 1 1 5BDAFBFA
 P 2100 3900
 AR Path="/5BDAFBFA" Ref="#PWR?"  Part="1" 
@@ -428,7 +427,7 @@ $EndComp
 Wire Wire Line
 	3150 3900 2100 3900
 $Comp
-L schematic.lib:G3V3 #PWR?
+L pap:G3V3 #PWR?
 U 1 1 5BDFC6AD
 P 1850 3400
 AR Path="/5BDFC6AD" Ref="#PWR?"  Part="1" 
@@ -443,7 +442,7 @@ $EndComp
 Wire Wire Line
 	3150 3400 1850 3400
 $Comp
-L schematic.lib:G3V3 #PWR?
+L pap:G3V3 #PWR?
 U 1 1 5BE572B5
 P 2500 4700
 AR Path="/5BE572B5" Ref="#PWR?"  Part="1" 
@@ -462,7 +461,7 @@ Wire Wire Line
 Wire Wire Line
 	7000 3600 7600 3600
 $Comp
-L schematic.lib:15V #PWR?
+L pap:15V #PWR?
 U 1 1 5BEEBABF
 P 8600 3600
 AR Path="/5BEEBABF" Ref="#PWR?"  Part="1" 
@@ -486,7 +485,7 @@ F 3 "~" H 2250 9100 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L schematic.lib:3V3 #PWR?
+L pap:3V3 #PWR?
 U 1 1 5C13AF57
 P 2250 8650
 AR Path="/5C13AF57" Ref="#PWR?"  Part="1" 
@@ -521,7 +520,7 @@ F 3 "~" H 2650 8800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L schematic.lib:3V3 #PWR?
+L pap:3V3 #PWR?
 U 1 1 5C1814CA
 P 2650 8650
 AR Path="/5C1814CA" Ref="#PWR?"  Part="1" 
@@ -597,7 +596,7 @@ MotorA1
 Text HLabel 3450 8550 1    50   Input ~ 0
 MotorA2
 $Comp
-L schematic.lib:G85V #PWR?
+L pap:G85V #PWR?
 U 1 1 5C1E693B
 P 3050 9300
 AR Path="/5C1E693B" Ref="#PWR?"  Part="1" 
@@ -610,7 +609,7 @@ F 3 "" H 3050 9300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L schematic.lib:G85V #PWR?
+L pap:G85V #PWR?
 U 1 1 5C1E6A5E
 P 3450 9300
 AR Path="/5C1E6A5E" Ref="#PWR?"  Part="1" 
@@ -671,7 +670,7 @@ MotorB1
 Text HLabel 4250 8550 1    50   Input ~ 0
 MotorB2
 $Comp
-L schematic.lib:G85V #PWR?
+L pap:G85V #PWR?
 U 1 1 5C1E6CFF
 P 3850 9300
 AR Path="/5C1E6CFF" Ref="#PWR?"  Part="1" 
@@ -684,7 +683,7 @@ F 3 "" H 3850 9300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L schematic.lib:G85V #PWR?
+L pap:G85V #PWR?
 U 1 1 5C1E6D05
 P 4250 9300
 AR Path="/5C1E6D05" Ref="#PWR?"  Part="1" 
@@ -712,7 +711,7 @@ Wire Wire Line
 Wire Wire Line
 	6800 9150 6800 8800
 $Comp
-L schematic.lib:3V3 #PWR?
+L pap:3V3 #PWR?
 U 1 1 5C2DB7F9
 P 6500 8800
 AR Path="/5C2DB7F9" Ref="#PWR?"  Part="1" 
@@ -725,7 +724,7 @@ F 3 "" H 6500 8800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L schematic.lib:15V #PWR?
+L pap:15V #PWR?
 U 1 1 5C2F89A6
 P 6800 8800
 AR Path="/5C2F89A6" Ref="#PWR?"  Part="1" 
@@ -759,7 +758,7 @@ F 3 "~" H 1850 8800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L schematic.lib:3V3 #PWR?
+L pap:3V3 #PWR?
 U 1 1 5BA82210
 P 1850 8650
 AR Path="/5BA82210" Ref="#PWR?"  Part="1" 
@@ -803,7 +802,7 @@ Wire Wire Line
 Wire Wire Line
 	4250 9250 4250 9300
 $Comp
-L schematic.lib:85V #PWR?
+L pap:85V #PWR?
 U 1 1 5BCCC35B
 P 6050 1750
 AR Path="/5BCCC35B" Ref="#PWR?"  Part="1" 
@@ -816,7 +815,7 @@ F 3 "" H 6050 1750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L schematic.lib:85V #PWR?
+L pap:85V #PWR?
 U 1 1 5BCDA53A
 P 4100 1750
 AR Path="/5BCDA53A" Ref="#PWR?"  Part="1" 
@@ -829,7 +828,7 @@ F 3 "" H 4100 1750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L schematic.lib:85V #PWR?
+L pap:85V #PWR?
 U 1 1 5BCE8ABD
 P 3850 6800
 AR Path="/5BCE8ABD" Ref="#PWR?"  Part="1" 
@@ -842,7 +841,7 @@ F 3 "" H 3850 6800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L schematic.lib:85V #PWR?
+L pap:85V #PWR?
 U 1 1 5BCF752D
 P 6350 6750
 AR Path="/5BCF752D" Ref="#PWR?"  Part="1" 
@@ -863,12 +862,12 @@ Wire Wire Line
 Wire Wire Line
 	8600 3600 8600 4000
 $Comp
-L schematic.lib:powerstep01 U1
+L pap:powerstep01 U1
 U 1 1 5BA75207
 P 5050 4100
 F 0 "U1" H 3650 6000 50  0000 C CNN
 F 1 "powerstep01" H 3550 6100 50  0000 C CNN
-F 2 "powerstep:powerstep" H 4150 3600 50  0001 C CNN
+F 2 "pap:powerstep" H 4150 3600 50  0001 C CNN
 F 3 "" H 3250 6150 50  0001 C CNN
 	1    5050 4100
 	1    0    0    -1  
@@ -924,7 +923,7 @@ F 3 "~" H 11000 9000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L schematic.lib:G85V #PWR?
+L pap:G85V #PWR?
 U 1 1 5BDAC7A4
 P 11000 9250
 AR Path="/5BDAC7A4" Ref="#PWR?"  Part="1" 
@@ -961,7 +960,7 @@ Connection ~ 7150 4000
 Wire Wire Line
 	7150 4000 8600 4000
 $Comp
-L schematic.lib:G85V #PWR?
+L pap:G85V #PWR?
 U 1 1 5BB5D627
 P 7300 4100
 AR Path="/5BB5D627" Ref="#PWR?"  Part="1" 
@@ -1002,7 +1001,7 @@ Wire Wire Line
 Text HLabel 7850 8650 0    50   Input ~ 0
 Switch
 $Comp
-L schematic.lib:G3V3 #PWR?
+L pap:G3V3 #PWR?
 U 1 1 5BBB31C8
 P 7950 9100
 AR Path="/5BBB31C8" Ref="#PWR?"  Part="1" 
@@ -1034,7 +1033,7 @@ F 3 "~" H 9350 9000 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L schematic.lib:3V3 #PWR?
+L pap:3V3 #PWR?
 U 1 1 5BBC458D
 P 9350 8800
 AR Path="/5BBC458D" Ref="#PWR?"  Part="1" 
@@ -1120,7 +1119,7 @@ $EndComp
 Wire Wire Line
 	1400 9250 1400 9350
 $Comp
-L schematic.lib:85V #PWR?
+L pap:85V #PWR?
 U 1 1 5BB57E18
 P 1400 8650
 AR Path="/5BB57E18" Ref="#PWR?"  Part="1" 
@@ -1133,7 +1132,7 @@ F 3 "" H 1400 8650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L schematic.lib:G85V #PWR?
+L pap:G85V #PWR?
 U 1 1 5BB583DF
 P 1400 9350
 AR Path="/5BB583DF" Ref="#PWR?"  Part="1" 
@@ -1163,7 +1162,6 @@ Wire Notes Line
 	9850 850  1150 850 
 Wire Notes Line
 	1150 850  1150 7200
-Connection ~ 8800 3750
 Wire Wire Line
 	8800 3750 8800 3950
 Wire Wire Line
