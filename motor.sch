@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:pap-cache
 EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
@@ -966,7 +967,7 @@ P 7300 4100
 AR Path="/5BB5D627" Ref="#PWR?"  Part="1" 
 AR Path="/5BA6E8FB/5BB5D627" Ref="#PWR0107"  Part="1" 
 F 0 "#PWR0107" H 7300 3850 50  0001 C CNN
-F 1 "G85V" H 7305 3927 50  0000 C CNN
+F 1 "G85V" H 7388 4063 50  0000 L CNN
 F 2 "" H 7300 4100 50  0001 C CNN
 F 3 "" H 7300 4100 50  0001 C CNN
 	1    7300 4100
@@ -1166,4 +1167,14 @@ Wire Wire Line
 	8800 3750 8800 3950
 Wire Wire Line
 	8800 3600 8800 3950
+Text Label 4650 6400 0    50   ~ 0
+SenseA
+Text Label 4450 1150 0    50   ~ 0
+SenseB
+Text Label 8000 4400 0    50   ~ 0
+Vboot
+Text Label 8000 4500 0    50   ~ 0
+Vs
+Text Label 8000 4300 0    50   ~ 0
+Cpump
 $EndSCHEMATC

@@ -1167,4 +1167,8 @@ Wire Wire Line
 	8800 3750 8800 3950
 Wire Wire Line
 	8800 3600 8800 3950
+Text Label 4650 6400 0    50   ~ 0
+SenseA
+Text Label 4450 1150 0    50   ~ 0
+SenseB
 $EndSCHEMATC

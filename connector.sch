@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:pap-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -19,7 +20,7 @@ U 1 1 5BA7B68B
 P 1950 6600
 F 0 "J1" H 2030 6500 50  0000 L CNN
 F 1 "Conn_01x02" H 2030 6591 50  0000 L CNN
-F 2 "powerstep:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal" H 1950 6600 50  0001 C CNN
+F 2 "pap:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal" H 1950 6600 50  0001 C CNN
 F 3 "~" H 1950 6600 50  0001 C CNN
 	1    1950 6600
 	-1   0    0    1   
@@ -99,9 +100,9 @@ Text HLabel 2250 2850 3    50   Input ~ 0
 CLK
 Text HLabel 2350 2850 3    50   Input ~ 0
 SDI
-Text HLabel 7400 1550 2    50   Input ~ 0
+Text HLabel 6650 1800 3    50   Input ~ 0
 Pulse
-Text HLabel 7400 1650 2    50   Input ~ 0
+Text HLabel 6750 1800 3    50   Input ~ 0
 Switch
 Wire Wire Line
 	2850 2050 2850 2300
@@ -113,7 +114,7 @@ U 1 1 5BC94397
 P 6200 3950
 F 0 "J3" H 6120 4267 50  0000 C CNN
 F 1 "Conn_01x04" H 6120 4176 50  0000 C CNN
-F 2 "powerstep:PhoenixContact_MSTBA_2,5_4-G-5,08_1x04_P5.08mm_Horizontal" H 6200 3950 50  0001 C CNN
+F 2 "pap:PhoenixContact_MSTBA_2,5_4-G-5,08_1x04_P5.08mm_Horizontal" H 6200 3950 50  0001 C CNN
 F 3 "~" H 6200 3950 50  0001 C CNN
 	1    6200 3950
 	-1   0    0    -1  
@@ -134,21 +135,6 @@ Wire Wire Line
 	2300 6900 2150 6900
 Wire Wire Line
 	2300 6800 2150 6800
-$Comp
-L Connector_Generic:Conn_01x04 J2
-U 1 1 5BC9A7B0
-P 7000 1750
-F 0 "J2" H 6920 1325 50  0000 C CNN
-F 1 "Conn_01x04" H 6920 1416 50  0000 C CNN
-F 2 "powerstep:PhoenixContact_MSTBA_2,5_4-G-5,08_1x04_P5.08mm_Horizontal" H 7000 1750 50  0001 C CNN
-F 3 "~" H 7000 1750 50  0001 C CNN
-	1    7000 1750
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	7200 1650 7400 1650
-Wire Wire Line
-	7200 1550 7400 1550
 Text HLabel 3600 2850 3    50   Input ~ 0
 SDO
 Wire Wire Line
@@ -176,7 +162,7 @@ Text Notes 2100 3600 0    50   ~ 0
 Decido hacer el cruce de SPI en las fichas \ny no en el cable, de modo que los cables son\nsiempre rectos\n
 Text Notes 2000 1050 0    197  ~ 39
 Spi Daisy Chain
-Text Notes 6500 1100 0    197  ~ 39
+Text Notes 7450 1050 0    197  ~ 39
 Paralel Conn\n
 Text Notes 1850 6200 0    197  ~ 39
 Motor
@@ -190,7 +176,7 @@ AR Path="/5BA6E8FB/5BDFE583" Ref="C?"  Part="1"
 AR Path="/5BA6E5CE/5BDFE583" Ref="C7"  Part="1" 
 F 0 "C7" H 8218 4096 50  0000 L CNN
 F 1 "100uFx100v" V 8200 3850 50  0000 L CNN
-F 2 "powerstep:CP_Radial_D13.0mm_P5.00mm" H 8138 3900 50  0001 C CNN
+F 2 "pap:CP_Radial_D13.0mm_P5.00mm" H 8138 3900 50  0001 C CNN
 F 3 "~" H 8100 4050 50  0001 C CNN
 	1    8100 4050
 	1    0    0    -1  
@@ -243,10 +229,8 @@ Text Notes 7800 1650 0    50   ~ 0
 El fin de carrera y el step es individual \npor modulo asi que va por fuera \nde la cadena SPI\n
 Text Notes 7600 4800 0    50   ~ 0
 segun las pruebas con 200uF \nsera suficiente para un ripple aceptable. \nUso 2 de 100 para que no quede tan alto
-Text HLabel 7400 1750 2    50   Input ~ 0
+Text HLabel 6850 1800 3    50   Input ~ 0
 Busy
-Wire Wire Line
-	7400 1750 7200 1750
 Text Notes 7800 1850 0    50   ~ 0
 El busy si se usa como salida para \nmanejar pulso a otro driver es individual
 Wire Wire Line
@@ -283,7 +267,7 @@ AR Path="/5BA6E8FB/5BE152B2" Ref="C?"  Part="1"
 AR Path="/5BA6E5CE/5BE152B2" Ref="C8"  Part="1" 
 F 0 "C8" H 8568 4096 50  0000 L CNN
 F 1 "100uFx100v" V 8600 3900 50  0000 L CNN
-F 2 "powerstep:CP_Radial_D13.0mm_P5.00mm" H 8488 3900 50  0001 C CNN
+F 2 "pap:CP_Radial_D13.0mm_P5.00mm" H 8488 3900 50  0001 C CNN
 F 3 "~" H 8450 4050 50  0001 C CNN
 	1    8450 4050
 	1    0    0    -1  
@@ -322,7 +306,7 @@ U 1 1 5BE15A46
 P 1950 6900
 F 0 "J6" H 2030 6800 50  0000 L CNN
 F 1 "Conn_01x02" H 2030 6891 50  0000 L CNN
-F 2 "powerstep:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal" H 1950 6900 50  0001 C CNN
+F 2 "pap:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal" H 1950 6900 50  0001 C CNN
 F 3 "~" H 1950 6900 50  0001 C CNN
 	1    1950 6900
 	-1   0    0    1   
@@ -513,23 +497,21 @@ Wire Notes Line
 $Comp
 L pap:G3V3 #PWR0301
 U 1 1 5BB6F1FE
-P 7450 1850
-F 0 "#PWR0301" H 7450 1600 50  0001 C CNN
-F 1 "G3V3" H 7455 1677 50  0000 C CNN
-F 2 "" H 7450 1850 50  0001 C CNN
-F 3 "" H 7450 1850 50  0001 C CNN
-	1    7450 1850
+P 6950 1800
+F 0 "#PWR0301" H 6950 1550 50  0001 C CNN
+F 1 "G3V3" H 6955 1627 50  0000 C CNN
+F 2 "" H 6950 1800 50  0001 C CNN
+F 3 "" H 6950 1800 50  0001 C CNN
+	1    6950 1800
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7200 1850 7450 1850
 $Comp
 L pap:RJ45 rJ301
 U 1 1 5BB97209
 P 2550 1650
 F 0 "rJ301" V 2541 1220 50  0000 R CNN
 F 1 "RJ45" V 2450 1220 50  0000 R CNN
-F 2 "pap:rj45_dci" V 2550 1675 50  0001 C CNN
+F 2 "pap:rj45" V 2550 1675 50  0001 C CNN
 F 3 "~" V 2550 1675 50  0001 C CNN
 	1    2550 1650
 	0    -1   -1   0   
@@ -540,7 +522,7 @@ U 1 1 5BB97330
 P 3800 1650
 F 0 "rJ302" V 3791 1220 50  0000 R CNN
 F 1 "RJ45" V 3700 1220 50  0000 R CNN
-F 2 "powerstep:rj45_dci" V 3800 1675 50  0001 C CNN
+F 2 "pap:rj45" V 3800 1675 50  0001 C CNN
 F 3 "~" V 3800 1675 50  0001 C CNN
 	1    3800 1650
 	0    -1   -1   0   
@@ -553,4 +535,43 @@ Wire Wire Line
 	6550 4150 6750 4150
 Wire Wire Line
 	6400 4050 6550 4050
+$Comp
+L pap:RJ12 rJ303
+U 1 1 5BB824FD
+P 6750 1200
+F 0 "rJ303" V 6741 870 50  0000 R CNN
+F 1 "RJ12" V 6650 870 50  0000 R CNN
+F 2 "pap:rj12" V 6750 1225 50  0001 C CNN
+F 3 "~" V 6750 1225 50  0001 C CNN
+	1    6750 1200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6950 1800 6950 1600
+Wire Wire Line
+	6850 1800 6850 1600
+Wire Wire Line
+	6750 1600 6750 1800
+Wire Wire Line
+	6650 1800 6650 1600
+$Comp
+L pap:3V3 #PWR?
+U 1 1 5BB850CF
+P 6250 1800
+AR Path="/5BB850CF" Ref="#PWR?"  Part="1" 
+AR Path="/5BA6E8FB/5BB850CF" Ref="#PWR?"  Part="1" 
+AR Path="/5BA6E5CE/5BB850CF" Ref="#PWR0110"  Part="1" 
+F 0 "#PWR0110" H 6250 1700 50  0001 C CNN
+F 1 "3V3" H 6250 2075 50  0000 C CNN
+F 2 "" H 6250 1800 50  0001 C CNN
+F 3 "" H 6250 1800 50  0001 C CNN
+	1    6250 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6450 1600 6450 1850
+Wire Wire Line
+	6450 1850 6250 1850
+Wire Wire Line
+	6250 1800 6250 1850
 $EndSCHEMATC
