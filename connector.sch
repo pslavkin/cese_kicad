@@ -94,20 +94,20 @@ F 3 "" H 7650 4200 50  0001 C CNN
 	1    7650 4200
 	1    0    0    -1  
 $EndComp
-Text HLabel 2150 2850 3    50   Input ~ 0
+Text HLabel 2750 2850 3    50   Input ~ 0
 CS
-Text HLabel 2250 2850 3    50   Input ~ 0
+Text HLabel 2150 2850 3    50   Input ~ 0
 CLK
-Text HLabel 2350 2850 3    50   Input ~ 0
+Text HLabel 2250 2850 3    50   Input ~ 0
 SDI
 Text HLabel 6650 1800 3    50   Input ~ 0
 Pulse
-Text HLabel 6750 1800 3    50   Input ~ 0
+Text HLabel 6550 1800 3    50   Input ~ 0
 Switch
 Wire Wire Line
 	2850 2050 2850 2300
 Wire Wire Line
-	2350 2050 2350 2850
+	2350 2050 2350 2550
 $Comp
 L Connector_Generic:Conn_01x04 J3
 U 1 1 5BC94397
@@ -135,10 +135,10 @@ Wire Wire Line
 	2300 6900 2150 6900
 Wire Wire Line
 	2300 6800 2150 6800
-Text HLabel 3600 2850 3    50   Input ~ 0
+Text HLabel 3500 2850 3    50   Input ~ 0
 SDO
 Wire Wire Line
-	3600 2050 3600 2850
+	3600 2050 3600 2550
 $Comp
 L pap:G3V3 #PWR0118
 U 1 1 5BC9BC97
@@ -237,28 +237,26 @@ Wire Wire Line
 	2750 2350 4000 2350
 Wire Wire Line
 	4000 2350 4000 2050
-Text HLabel 4350 4750 0    50   Input ~ 0
+Text HLabel 3250 4700 0    50   Input ~ 0
 Busy
 $Comp
 L Jumper:SolderJumper_2_Open JP1
 U 1 1 5BE0DECD
-P 4500 4750
-F 0 "JP1" H 4500 4525 50  0000 C CNN
-F 1 "jumper" H 4500 4616 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 4500 4750 50  0001 C CNN
-F 3 "~" H 4500 4750 50  0001 C CNN
-	1    4500 4750
+P 3400 4700
+F 0 "JP1" H 3400 4475 50  0000 C CNN
+F 1 "jumper" H 3400 4566 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 3400 4700 50  0001 C CNN
+F 3 "~" H 3400 4700 50  0001 C CNN
+	1    3400 4700
 	-1   0    0    1   
 $EndComp
-Text Notes 4200 5200 0    50   ~ 0
+Text Notes 3100 5150 0    50   ~ 0
 si busy va de step, \nno va en cadena SPI, \nsino en conector \nindividual\n
 Wire Wire Line
 	2750 2350 2750 2050
 Wire Wire Line
 	2750 2850 2750 2350
 Connection ~ 2750 2350
-Wire Wire Line
-	2250 2850 2250 2550
 $Comp
 L Device:CP C?
 U 1 1 5BE152B2
@@ -323,8 +321,6 @@ Wire Wire Line
 Connection ~ 6550 4150
 Text Notes 5900 5000 0    50   ~ 0
 Contemplo doble pin del conector para\npositivo y doble para negativo para \npermitir encadenar alimentacion y/o suplir\nmas corriente\n
-Wire Wire Line
-	2550 2850 2550 2450
 $Comp
 L power:PWR_FLAG #FLG?
 U 1 1 5BB665B4
@@ -363,33 +359,6 @@ Wire Notes Line
 	9350 2700 5750 2700
 Wire Notes Line
 	5750 2700 5750 5200
-$Comp
-L Jumper:Jumper_3_Open JP?
-U 1 1 5BC3E80A
-P 2500 4850
-AR Path="/5BA6E8FB/5BC3E80A" Ref="JP?"  Part="1" 
-AR Path="/5BA6E5CE/5BC3E80A" Ref="JP301"  Part="1" 
-F 0 "JP301" V 2546 4937 50  0000 L CNN
-F 1 "Clk_Select" V 2455 4937 50  0000 L CNN
-F 2 "Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm" H 2500 4850 50  0001 C CNN
-F 3 "~" H 2500 4850 50  0001 C CNN
-	1    2500 4850
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	2650 4850 2900 4850
-Wire Wire Line
-	2500 4600 2100 4600
-Wire Wire Line
-	2100 5100 2500 5100
-Text HLabel 2100 5100 0    50   Input ~ 0
-Osc_In
-Text HLabel 2100 4600 0    50   Input ~ 0
-Osc_Out
-Text Label 2900 4850 0    50   ~ 0
-Osc
-Text Label 2550 2850 3    50   ~ 0
-Osc
 Text HLabel 2650 2850 3    50   Input ~ 0
 Reset
 Wire Wire Line
@@ -406,10 +375,10 @@ Wire Notes Line
 	5250 600  5250 3650
 Wire Notes Line
 	1200 3900 1200 5300
-Text Notes 2700 5200 0    50   ~ 0
+Text Notes 3900 3200 0    50   ~ 0
 un IC genera y el resto \nconsume CLK y regenera \ninvertido para el siguiente\nCon esto selecciono
 Text Label 2450 2850 3    50   ~ 0
-Sdo_Chain
+Sdo_Back
 Wire Wire Line
 	2850 2300 4100 2300
 Wire Wire Line
@@ -420,26 +389,10 @@ Wire Wire Line
 Wire Wire Line
 	3900 2400 3900 2050
 Wire Wire Line
-	2550 2450 3800 2450
-Connection ~ 2550 2450
-Wire Wire Line
-	2550 2450 2550 2050
-Wire Wire Line
-	3800 2450 3800 2050
-Wire Wire Line
-	2250 2550 3500 2550
-Connection ~ 2250 2550
-Wire Wire Line
-	2250 2550 2250 2050
-Wire Wire Line
-	3500 2550 3500 2050
-Wire Wire Line
-	2150 2600 3400 2600
-Wire Wire Line
-	3400 2600 3400 2050
-Text Label 4650 4750 0    50   ~ 0
+	3500 2850 3500 2050
+Text Label 3550 4700 0    50   ~ 0
 Busy_Out
-Text Label 2750 2850 3    50   ~ 0
+Text Label 2350 2850 3    50   ~ 0
 Busy_Out
 Wire Notes Line
 	5350 3900 5350 5300
@@ -453,11 +406,6 @@ Connection ~ 2850 2300
 Wire Wire Line
 	2450 2500 2450 2850
 Connection ~ 2450 2500
-Connection ~ 2150 2600
-Wire Wire Line
-	2150 2600 2150 2050
-Wire Wire Line
-	2150 2850 2150 2600
 $Comp
 L Mechanical:MountingHole MH?
 U 1 1 5BB850B6
@@ -499,7 +447,7 @@ L pap:G3V3 #PWR0301
 U 1 1 5BB6F1FE
 P 6450 1850
 F 0 "#PWR0301" H 6450 1600 50  0001 C CNN
-F 1 "G3V3" H 6455 1677 50  0000 C CNN
+F 1 "G3V3" H 6372 1813 50  0000 R CNN
 F 2 "" H 6450 1850 50  0001 C CNN
 F 3 "" H 6450 1850 50  0001 C CNN
 	1    6450 1850
@@ -549,7 +497,7 @@ $EndComp
 Wire Wire Line
 	6850 1800 6850 1600
 Wire Wire Line
-	6750 1600 6750 1800
+	6550 1600 6550 1800
 Wire Wire Line
 	6650 1800 6650 1600
 $Comp
@@ -574,4 +522,28 @@ Wire Wire Line
 	7150 1850 7150 1800
 Wire Wire Line
 	6950 1600 6950 1850
+Wire Wire Line
+	2150 2050 2150 2600
+Wire Wire Line
+	2350 2550 3600 2550
+Connection ~ 2350 2550
+Wire Wire Line
+	2350 2550 2350 2850
+Wire Wire Line
+	2250 2050 2250 2850
+Wire Wire Line
+	2150 2600 3400 2600
+Connection ~ 2150 2600
+Wire Wire Line
+	2150 2600 2150 2850
+Wire Wire Line
+	3400 2600 3400 2050
+Text HLabel 3800 2850 3    50   Input ~ 0
+Osc_Out
+Wire Wire Line
+	2550 2050 2550 2850
+Wire Wire Line
+	3800 2050 3800 2850
+Text HLabel 2550 2850 3    50   Input ~ 0
+Osc_In
 $EndSCHEMATC
