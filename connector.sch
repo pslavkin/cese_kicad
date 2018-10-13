@@ -15,10 +15,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector_Generic:Conn_01x02 J1
+L Connector_Generic:Conn_01x02 J52
 U 1 1 5BA7B68B
 P 1950 6600
-F 0 "J1" H 2030 6500 50  0000 L CNN
+F 0 "J52" H 2030 6500 50  0000 L CNN
 F 1 "Conn_01x02" H 2030 6591 50  0000 L CNN
 F 2 "pap:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal" H 1950 6600 50  0001 C CNN
 F 3 "~" H 1950 6600 50  0001 C CNN
@@ -58,10 +58,10 @@ Wire Wire Line
 Wire Wire Line
 	6550 3850 6550 3700
 $Comp
-L Diode:SM4007 D1
+L Diode:SM4007 D51
 U 1 1 5BA7B8EB
 P 7650 4050
-F 0 "D1" V 7604 4129 50  0000 L CNN
+F 0 "D51" V 7604 4129 50  0000 L CNN
 F 1 "SM4007" V 7695 4129 50  0000 L CNN
 F 2 "pap:D_SMA" H 7650 3875 50  0001 C CNN
 F 3 "http://cdn-reichelt.de/documents/datenblatt/A400/SMD1N400%23DIO.pdf" H 7650 4050 50  0001 C CNN
@@ -109,10 +109,10 @@ Wire Wire Line
 Wire Wire Line
 	2350 2050 2350 2550
 $Comp
-L Connector_Generic:Conn_01x04 J3
+L Connector_Generic:Conn_01x04 J51
 U 1 1 5BC94397
 P 6200 3950
-F 0 "J3" H 6120 4267 50  0000 C CNN
+F 0 "J51" H 6120 4267 50  0000 C CNN
 F 1 "Conn_01x04" H 6120 4176 50  0000 C CNN
 F 2 "pap:PhoenixContact_MSTBA_2,5_4-G-5,08_1x04_P5.08mm_Horizontal" H 6200 3950 50  0001 C CNN
 F 3 "~" H 6200 3950 50  0001 C CNN
@@ -173,9 +173,9 @@ L Device:CP C?
 U 1 1 5BDFE583
 P 9550 4050
 AR Path="/5BA6E8FB/5BDFE583" Ref="C?"  Part="1" 
-AR Path="/5BA6E5CE/5BDFE583" Ref="C7"  Part="1" 
-F 0 "C7" H 9668 4096 50  0000 L CNN
-F 1 "100uFx100v" V 9650 3850 50  0000 L CNN
+AR Path="/5BA6E5CE/5BDFE583" Ref="C51"  Part="1" 
+F 0 "C51" H 9432 4096 50  0000 R CNN
+F 1 "100uFx100v" H 9432 4005 50  0000 R CNN
 F 2 "pap:CP_Radial_D13.0mm_P5.00mm" H 9588 3900 50  0001 C CNN
 F 3 "~" H 9550 4050 50  0001 C CNN
 	1    9550 4050
@@ -240,10 +240,10 @@ Wire Wire Line
 Text HLabel 1750 4650 0    50   Input ~ 0
 Busy
 $Comp
-L Jumper:SolderJumper_2_Open JP1
+L Jumper:SolderJumper_2_Open JP51
 U 1 1 5BE0DECD
 P 1900 4650
-F 0 "JP1" H 1900 4425 50  0000 C CNN
+F 0 "JP51" H 1900 4425 50  0000 C CNN
 F 1 "jumper" H 1900 4516 50  0000 C CNN
 F 2 "pap:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 1900 4650 50  0001 C CNN
 F 3 "~" H 1900 4650 50  0001 C CNN
@@ -262,9 +262,9 @@ L Device:CP C?
 U 1 1 5BE152B2
 P 9900 4050
 AR Path="/5BA6E8FB/5BE152B2" Ref="C?"  Part="1" 
-AR Path="/5BA6E5CE/5BE152B2" Ref="C8"  Part="1" 
-F 0 "C8" H 10018 4096 50  0000 L CNN
-F 1 "100uFx100v" V 10050 3900 50  0000 L CNN
+AR Path="/5BA6E5CE/5BE152B2" Ref="C52"  Part="1" 
+F 0 "C52" H 10018 4096 50  0000 L CNN
+F 1 "100uFx100v" H 10018 4005 50  0000 L CNN
 F 2 "pap:CP_Radial_D13.0mm_P5.00mm" H 9938 3900 50  0001 C CNN
 F 3 "~" H 9900 4050 50  0001 C CNN
 	1    9900 4050
@@ -299,10 +299,10 @@ F 3 "" H 9900 4200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 J6
+L Connector_Generic:Conn_01x02 J53
 U 1 1 5BE15A46
 P 1950 6900
-F 0 "J6" H 2030 6800 50  0000 L CNN
+F 0 "J53" H 2030 6800 50  0000 L CNN
 F 1 "Conn_01x02" H 2030 6891 50  0000 L CNN
 F 2 "pap:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal" H 1950 6900 50  0001 C CNN
 F 3 "~" H 1950 6900 50  0001 C CNN
@@ -363,8 +363,8 @@ Text HLabel 2650 2850 3    50   Input ~ 0
 Reset
 Wire Wire Line
 	2650 2850 2650 2400
-Text Notes 1950 4200 0    197  ~ 39
-Pins Selector
+Text Notes 2150 4250 0    197  ~ 39
+Pins Select
 Wire Notes Line
 	1100 3650 5250 3650
 Wire Notes Line
@@ -411,8 +411,8 @@ L Mechanical:MountingHole MH?
 U 1 1 5BB850B6
 P 4150 6650
 AR Path="/5BB850B6" Ref="MH?"  Part="1" 
-AR Path="/5BA6E5CE/5BB850B6" Ref="MH302"  Part="1" 
-F 0 "MH302" H 4250 6696 50  0000 L CNN
+AR Path="/5BA6E5CE/5BB850B6" Ref="MH52"  Part="1" 
+F 0 "MH52" H 4250 6696 50  0000 L CNN
 F 1 "MountingHole" H 4250 6605 50  0000 L CNN
 F 2 "pap:MountingHole_3.2mm_M3" H 4150 6650 50  0001 C CNN
 F 3 "~" H 4150 6650 50  0001 C CNN
@@ -424,8 +424,8 @@ L Mechanical:MountingHole MH?
 U 1 1 5BB850BD
 P 4150 6400
 AR Path="/5BB850BD" Ref="MH?"  Part="1" 
-AR Path="/5BA6E5CE/5BB850BD" Ref="MH301"  Part="1" 
-F 0 "MH301" H 4250 6446 50  0000 L CNN
+AR Path="/5BA6E5CE/5BB850BD" Ref="MH51"  Part="1" 
+F 0 "MH51" H 4250 6446 50  0000 L CNN
 F 1 "MountingHole" H 4250 6355 50  0000 L CNN
 F 2 "pap:MountingHole_3.2mm_M3" H 4150 6400 50  0001 C CNN
 F 3 "~" H 4150 6400 50  0001 C CNN
@@ -454,10 +454,10 @@ F 3 "" H 6450 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L pap:RJ45 rJ301
+L pap:RJ45 J54
 U 1 1 5BB97209
 P 2550 1650
-F 0 "rJ301" V 2541 1220 50  0000 R CNN
+F 0 "J54" V 2541 1220 50  0000 R CNN
 F 1 "RJ45" V 2450 1220 50  0000 R CNN
 F 2 "pap:rj45" V 2550 1675 50  0001 C CNN
 F 3 "~" V 2550 1675 50  0001 C CNN
@@ -465,10 +465,10 @@ F 3 "~" V 2550 1675 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L pap:RJ45 rJ302
+L pap:RJ45 J55
 U 1 1 5BB97330
 P 3800 1650
-F 0 "rJ302" V 3791 1220 50  0000 R CNN
+F 0 "J55" V 3791 1220 50  0000 R CNN
 F 1 "RJ45" V 3700 1220 50  0000 R CNN
 F 2 "pap:rj45" V 3800 1675 50  0001 C CNN
 F 3 "~" V 3800 1675 50  0001 C CNN
@@ -483,17 +483,6 @@ Wire Wire Line
 	6550 4150 6750 4150
 Wire Wire Line
 	6400 4050 6550 4050
-$Comp
-L pap:RJ12 rJ303
-U 1 1 5BB824FD
-P 6750 1200
-F 0 "rJ303" V 6741 870 50  0000 R CNN
-F 1 "RJ12" V 6650 870 50  0000 R CNN
-F 2 "pap:rj12" V 6750 1225 50  0001 C CNN
-F 3 "~" V 6750 1225 50  0001 C CNN
-	1    6750 1200
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	6850 1800 6850 1600
 Wire Wire Line
@@ -547,10 +536,10 @@ Wire Wire Line
 Text HLabel 2550 2850 3    50   Input ~ 0
 Osc_In
 $Comp
-L Jumper:SolderJumper_2_Open JP301
+L Jumper:SolderJumper_2_Open JP52
 U 1 1 5BC269EF
 P 3800 4700
-F 0 "JP301" H 3800 4475 50  0000 C CNN
+F 0 "JP52" H 3800 4475 50  0000 C CNN
 F 1 "jumper" H 3800 4566 50  0000 C CNN
 F 2 "pap:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 3800 4700 50  0001 C CNN
 F 3 "~" H 3800 4700 50  0001 C CNN
@@ -591,12 +580,12 @@ F 3 "" H 8700 4200 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:Net-Tie_2 NT301
+L Device:Net-Tie_2 NT52
 U 1 1 5BCA0988
 P 8550 3900
-F 0 "NT301" H 8550 4078 50  0000 C CNN
+F 0 "NT52" H 8550 4078 50  0000 C CNN
 F 1 "Net-Tie_2" H 8550 3987 50  0000 C CNN
-F 2 "NetTie:NetTie-2_SMD_Pad0.5mm" H 8550 3900 50  0001 C CNN
+F 2 "pap:NetTie-2_SMD_Pad0.2mm_sin_seri" H 8550 3900 50  0001 C CNN
 F 3 "~" H 8550 3900 50  0001 C CNN
 	1    8550 3900
 	1    0    0    -1  
@@ -610,12 +599,12 @@ Wire Wire Line
 Wire Wire Line
 	8700 3900 8650 3900
 $Comp
-L Device:Net-Tie_2 NT?
+L Device:Net-Tie_2 NT51
 U 1 1 5BCA6648
 P 8550 3550
-F 0 "NT?" H 8550 3728 50  0000 C CNN
+F 0 "NT51" H 8550 3728 50  0000 C CNN
 F 1 "Net-Tie_2" H 8550 3637 50  0000 C CNN
-F 2 "NetTie:NetTie-2_SMD_Pad0.5mm" H 8550 3550 50  0001 C CNN
+F 2 "pap:NetTie-2_SMD_Pad0.2mm_sin_seri" H 8550 3550 50  0001 C CNN
 F 3 "~" H 8550 3550 50  0001 C CNN
 	1    8550 3550
 	1    0    0    -1  
@@ -632,4 +621,19 @@ Wire Wire Line
 Connection ~ 8700 3900
 Text Notes 8300 4800 0    50   ~ 0
 Se conectan desde 2 \npines de g3v3 a \n1 de g85v\n
+Text HLabel 6750 1800 3    50   Input ~ 0
+Flag
+$Comp
+L pap:RJ12 J56
+U 1 1 5BB824FD
+P 6750 1200
+F 0 "J56" V 6741 870 50  0000 R CNN
+F 1 "RJ12" V 6650 870 50  0000 R CNN
+F 2 "pap:rj12" V 6750 1225 50  0001 C CNN
+F 3 "~" V 6750 1225 50  0001 C CNN
+	1    6750 1200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6750 1800 6750 1600
 $EndSCHEMATC

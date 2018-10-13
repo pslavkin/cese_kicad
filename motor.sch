@@ -117,19 +117,6 @@ Wire Wire Line
 Wire Wire Line
 	7000 4000 7150 4000
 $Comp
-L pap:3V3 #PWR?
-U 1 1 5BA71FD4
-P 8200 3600
-AR Path="/5BA71FD4" Ref="#PWR?"  Part="1" 
-AR Path="/5BA6E8FB/5BA71FD4" Ref="#PWR0129"  Part="1" 
-F 0 "#PWR0129" H 8200 3500 50  0001 C CNN
-F 1 "3V3" H 8200 3875 50  0000 C CNN
-F 2 "" H 8200 3600 50  0001 C CNN
-F 3 "" H 8200 3600 50  0001 C CNN
-	1    8200 3600
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R R6
 U 1 1 5BA77D9E
 P 10350 8600
@@ -706,8 +693,6 @@ Wire Wire Line
 	5900 9150 5900 9050
 Wire Wire Line
 	1400 9250 1400 9350
-Text Label 2100 9400 3    50   ~ 0
-Flag
 Text HLabel 1000 9350 3    50   Input ~ 0
 CS
 $Comp
@@ -869,8 +854,8 @@ Wire Wire Line
 	4650 2050 5050 2050
 Text Notes 5450 1250 0    197  ~ 39
 Motor Driver IC
-Text Notes 2100 8000 0    197  ~ 39
-Leds debug\n
+Text Notes 2450 7900 0    197  ~ 39
+Leds\n
 Text Notes 2250 9850 0    50   ~ 0
 Contemplo leds para ver movimiento en \nsincro con el motor mas algunos de debug \ncomo flag\n
 Text Notes 5750 9600 0    50   ~ 0
@@ -938,8 +923,6 @@ F 3 "" H 7300 4100 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7000 4100 7300 4100
-Text Label 2650 4200 2    50   ~ 0
-Flag
 Wire Wire Line
 	2650 4200 3150 4200
 $Comp
@@ -986,10 +969,10 @@ Switch_Local
 Wire Wire Line
 	8400 8650 8550 8650
 $Comp
-L Device:R R201
+L Device:R R1
 U 1 1 5BBC4586
 P 9350 9000
-F 0 "R201" V 9150 9000 50  0000 C CNN
+F 0 "R1" V 9150 9000 50  0000 C CNN
 F 1 "R" V 9250 9000 50  0000 C CNN
 F 2 "pap:R_0805_2012Metric" V 9280 9000 50  0001 C CNN
 F 3 "~" H 9350 9000 50  0001 C CNN
@@ -1040,8 +1023,8 @@ L Diode:LL4148 D?
 U 1 1 5BCB0C65
 P 8250 8650
 AR Path="/5BCB0C65" Ref="D?"  Part="1" 
-AR Path="/5BA6E8FB/5BCB0C65" Ref="D201"  Part="1" 
-F 0 "D201" H 8250 8866 50  0000 C CNN
+AR Path="/5BA6E8FB/5BCB0C65" Ref="D17"  Part="1" 
+F 0 "D17" H 8250 8866 50  0000 C CNN
 F 1 "LL4148" H 8250 8775 50  0000 C CNN
 F 2 "pap:D_MiniMELF" H 8250 8475 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 8250 8650 50  0001 C CNN
@@ -1132,10 +1115,10 @@ Cpump
 Text HLabel 1400 9350 3    50   Input ~ 0
 Busy
 $Comp
-L Device:LED D203
+L Device:LED D9
 U 1 1 5BB9D2E4
 P 1750 8800
-F 0 "D203" V 1788 8683 50  0000 R CNN
+F 0 "D9" V 1788 8683 50  0000 R CNN
 F 1 "LED" V 1697 8683 50  0000 R CNN
 F 2 "pap:led5p_rj" H 1750 8800 50  0001 C CNN
 F 3 "~" H 1750 8800 50  0001 C CNN
@@ -1167,10 +1150,10 @@ F 3 "~" H 1750 9100 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:LED D204
+L Device:LED D13
 U 1 1 5BBA7BC3
 P 2450 8800
-F 0 "D204" V 2488 8683 50  0000 R CNN
+F 0 "D13" V 2488 8683 50  0000 R CNN
 F 1 "LED" V 2397 8683 50  0000 R CNN
 F 2 "pap:led5p_rj" H 2450 8800 50  0001 C CNN
 F 3 "~" H 2450 8800 50  0001 C CNN
@@ -1234,10 +1217,10 @@ F 3 "~" H 3400 8800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L pap:LED_I D202
+L pap:LED_I D14
 U 1 1 5BC42DA3
 P 4600 8750
-F 0 "D202" V 4638 8633 50  0000 R CNN
+F 0 "D14" V 4638 8633 50  0000 R CNN
 F 1 "LED_I" V 4547 8633 50  0000 R CNN
 F 2 "pap:led5p_enchufable" H 4600 8750 50  0001 C CNN
 F 3 "~" H 4600 8750 50  0001 C CNN
@@ -1249,8 +1232,8 @@ L Diode:LL4148 D?
 U 1 1 5BC459B0
 P 5900 8900
 AR Path="/5BC459B0" Ref="D?"  Part="1" 
-AR Path="/5BA6E8FB/5BC459B0" Ref="D205"  Part="1" 
-F 0 "D205" V 5946 8821 50  0000 R CNN
+AR Path="/5BA6E8FB/5BC459B0" Ref="D15"  Part="1" 
+F 0 "D15" V 5946 8821 50  0000 R CNN
 F 1 "LL4148" V 5855 8821 50  0000 R CNN
 F 2 "pap:D_MiniMELF" H 5900 8725 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 5900 8900 50  0001 C CNN
@@ -1275,8 +1258,8 @@ L Diode:LL4148 D?
 U 1 1 5BC5A9C8
 P 6400 8900
 AR Path="/5BC5A9C8" Ref="D?"  Part="1" 
-AR Path="/5BA6E8FB/5BC5A9C8" Ref="D206"  Part="1" 
-F 0 "D206" V 6446 8821 50  0000 R CNN
+AR Path="/5BA6E8FB/5BC5A9C8" Ref="D16"  Part="1" 
+F 0 "D16" V 6446 8821 50  0000 R CNN
 F 1 "LL4148" V 6355 8821 50  0000 R CNN
 F 2 "pap:D_MiniMELF" H 6400 8725 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 6400 8900 50  0001 C CNN
@@ -1298,4 +1281,138 @@ Wire Wire Line
 	6400 9150 6600 9150
 Wire Wire Line
 	6600 9150 6600 8550
+$Comp
+L pap:Vreg #PWR0121
+U 1 1 5BCED205
+P 8200 3600
+F 0 "#PWR0121" H 8200 3900 50  0001 C CNN
+F 1 "Vreg" H 8200 3875 50  0000 C CNN
+F 2 "" H 7850 3450 50  0001 C CNN
+F 3 "" H 7850 3450 50  0001 C CNN
+	1    8200 3600
+	1    0    0    -1  
+$EndComp
+Text HLabel 2650 4200 0    50   Input ~ 0
+Flag
+Text HLabel 2100 9400 3    50   Input ~ 0
+Flag
+$Comp
+L pap:Vreg #PWR?
+U 1 1 5BCFBE1E
+P 12300 8400
+AR Path="/5BA6E5CE/5BCFBE1E" Ref="#PWR?"  Part="1" 
+AR Path="/5BA6E8FB/5BCFBE1E" Ref="#PWR0122"  Part="1" 
+F 0 "#PWR0122" H 12300 8700 50  0001 C CNN
+F 1 "Vreg" H 12300 8675 50  0000 C CNN
+F 2 "" H 11950 8250 50  0001 C CNN
+F 3 "" H 11950 8250 50  0001 C CNN
+	1    12300 8400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP?
+U 1 1 5BCFBE25
+P 12600 8500
+AR Path="/5BA6E5CE/5BCFBE25" Ref="JP?"  Part="1" 
+AR Path="/5BA6E8FB/5BCFBE25" Ref="JP2"  Part="1" 
+F 0 "JP2" H 12600 8275 50  0000 C CNN
+F 1 "jumper" H 12600 8366 50  0000 C CNN
+F 2 "pap:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 12600 8500 50  0001 C CNN
+F 3 "~" H 12600 8500 50  0001 C CNN
+	1    12600 8500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	12450 8500 12300 8500
+$Comp
+L pap:3V3 #PWR?
+U 1 1 5BCFBE2D
+P 12900 8400
+AR Path="/5BCFBE2D" Ref="#PWR?"  Part="1" 
+AR Path="/5BA6E8FB/5BCFBE2D" Ref="#PWR0123"  Part="1" 
+AR Path="/5BA6E5CE/5BCFBE2D" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0123" H 12900 8300 50  0001 C CNN
+F 1 "3V3" H 12900 8675 50  0000 C CNN
+F 2 "" H 12900 8400 50  0001 C CNN
+F 3 "" H 12900 8400 50  0001 C CNN
+	1    12900 8400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12900 8500 12750 8500
+Text Notes 13250 7850 0    197  ~ 39
+Power
+Wire Wire Line
+	12900 8500 12900 8400
+Wire Wire Line
+	12300 8400 12300 8500
+$Comp
+L pap:3V3 #PWR?
+U 1 1 5BD1F950
+P 13600 8450
+AR Path="/5BD1F950" Ref="#PWR?"  Part="1" 
+AR Path="/5BA6E8FB/5BD1F950" Ref="#PWR0124"  Part="1" 
+AR Path="/5BA6E5CE/5BD1F950" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0124" H 13600 8350 50  0001 C CNN
+F 1 "3V3" H 13600 8725 50  0000 C CNN
+F 2 "" H 13600 8450 50  0001 C CNN
+F 3 "" H 13600 8450 50  0001 C CNN
+	1    13600 8450
+	1    0    0    -1  
+$EndComp
+$Comp
+L pap:G3V3 #PWR?
+U 1 1 5BD2633F
+P 14500 8300
+AR Path="/5BD2633F" Ref="#PWR?"  Part="1" 
+AR Path="/5BA6E8FB/5BD2633F" Ref="#PWR0125"  Part="1" 
+F 0 "#PWR0125" H 14500 8050 50  0001 C CNN
+F 1 "G3V3" H 14505 8127 50  0000 C CNN
+F 2 "" H 14500 8300 50  0001 C CNN
+F 3 "" H 14500 8300 50  0001 C CNN
+	1    14500 8300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0103
+U 1 1 5BD2DE1B
+P 13800 8350
+AR Path="/5BA6E8FB/5BD2DE1B" Ref="#FLG0103"  Part="1" 
+AR Path="/5BA6E5CE/5BD2DE1B" Ref="#FLG?"  Part="1" 
+F 0 "#FLG0103" H 13800 8425 50  0001 C CNN
+F 1 "PWR_FLAG" H 13868 8394 50  0000 L CNN
+F 2 "" H 13800 8350 50  0001 C CNN
+F 3 "~" H 13800 8350 50  0001 C CNN
+	1    13800 8350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13600 8450 13800 8450
+Wire Wire Line
+	13800 8450 13800 8350
+$Comp
+L power:PWR_FLAG #FLG0104
+U 1 1 5BD39DC3
+P 14500 8300
+AR Path="/5BA6E8FB/5BD39DC3" Ref="#FLG0104"  Part="1" 
+AR Path="/5BA6E5CE/5BD39DC3" Ref="#FLG?"  Part="1" 
+F 0 "#FLG0104" H 14500 8375 50  0001 C CNN
+F 1 "PWR_FLAG" H 14500 8474 50  0000 C CNN
+F 2 "" H 14500 8300 50  0001 C CNN
+F 3 "~" H 14500 8300 50  0001 C CNN
+	1    14500 8300
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	15250 7500 15250 9400
+Wire Notes Line
+	15250 9400 12000 9400
+Wire Notes Line
+	12000 9400 12000 7500
+Wire Notes Line
+	12000 7500 15250 7500
+Text Notes 12150 8950 0    50   ~ 0
+Selecciono si el regulador \ninterno alimenta la logica o \nse toma desde el conector \nexterno
+Text Notes 13600 8800 0    50   ~ 0
+Asignacino de Flags \nde power
 $EndSCHEMATC

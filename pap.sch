@@ -61,6 +61,7 @@ F12 "CLK" I R 7500 5150 50
 F13 "Osc_In" I R 7500 5850 50 
 F14 "Osc_Out" I R 7500 5950 50 
 F15 "Reset" I R 7500 6050 50 
+F16 "Flag" I R 7500 5650 50 
 $EndSheet
 $Sheet
 S 8150 4000 1050 2400
@@ -81,11 +82,16 @@ F12 "Busy" I L 8150 5550 50
 F13 "Osc_In" I L 8150 5850 50 
 F14 "Osc_Out" I L 8150 5950 50 
 F15 "Reset" I L 8150 6050 50 
+F16 "Flag" I L 8150 5650 50 
 $EndSheet
 Text Notes 6450 3700 0    197  ~ 39
 Motor\n
-Text Notes 8050 3650 0    197  ~ 39
+Text Notes 8000 3700 0    197  ~ 39
 Connectors\n
 Wire Wire Line
 	7500 6050 8150 6050
+Text Notes 6500 3800 0    50   ~ 0
+componentes 1 a 50
+Text Notes 8450 3800 0    50   ~ 0
+componentes 51 a 100
 $EndSCHEMATC
