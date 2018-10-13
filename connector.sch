@@ -63,7 +63,7 @@ U 1 1 5BA7B8EB
 P 7650 4050
 F 0 "D1" V 7604 4129 50  0000 L CNN
 F 1 "SM4007" V 7695 4129 50  0000 L CNN
-F 2 "Diode_SMD:D_MELF" H 7650 3875 50  0001 C CNN
+F 2 "pap:D_SMA" H 7650 3875 50  0001 C CNN
 F 3 "http://cdn-reichelt.de/documents/datenblatt/A400/SMD1N400%23DIO.pdf" H 7650 4050 50  0001 C CNN
 	1    7650 4050
 	0    1    1    0   
@@ -245,7 +245,7 @@ U 1 1 5BE0DECD
 P 3400 4700
 F 0 "JP1" H 3400 4475 50  0000 C CNN
 F 1 "jumper" H 3400 4566 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 3400 4700 50  0001 C CNN
+F 2 "pap:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 3400 4700 50  0001 C CNN
 F 3 "~" H 3400 4700 50  0001 C CNN
 	1    3400 4700
 	-1   0    0    1   
@@ -414,7 +414,7 @@ AR Path="/5BB850B6" Ref="MH?"  Part="1"
 AR Path="/5BA6E5CE/5BB850B6" Ref="MH302"  Part="1" 
 F 0 "MH302" H 4250 6696 50  0000 L CNN
 F 1 "MountingHole" H 4250 6605 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 4150 6650 50  0001 C CNN
+F 2 "pap:MountingHole_3.2mm_M3" H 4150 6650 50  0001 C CNN
 F 3 "~" H 4150 6650 50  0001 C CNN
 	1    4150 6650
 	1    0    0    -1  
@@ -427,7 +427,7 @@ AR Path="/5BB850BD" Ref="MH?"  Part="1"
 AR Path="/5BA6E5CE/5BB850BD" Ref="MH301"  Part="1" 
 F 0 "MH301" H 4250 6446 50  0000 L CNN
 F 1 "MountingHole" H 4250 6355 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 4150 6400 50  0001 C CNN
+F 2 "pap:MountingHole_3.2mm_M3" H 4150 6400 50  0001 C CNN
 F 3 "~" H 4150 6400 50  0001 C CNN
 	1    4150 6400
 	1    0    0    -1  
