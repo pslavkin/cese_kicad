@@ -414,7 +414,7 @@ AR Path="/5BB850B6" Ref="MH?"  Part="1"
 AR Path="/5BA6E5CE/5BB850B6" Ref="MH302"  Part="1" 
 F 0 "MH302" H 4250 6696 50  0000 L CNN
 F 1 "MountingHole" H 4250 6605 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 4150 6650 50  0001 C CNN
+F 2 "pap:MountingHole_3.2mm_M3" H 4150 6650 50  0001 C CNN
 F 3 "~" H 4150 6650 50  0001 C CNN
 	1    4150 6650
 	1    0    0    -1  
@@ -427,7 +427,7 @@ AR Path="/5BB850BD" Ref="MH?"  Part="1"
 AR Path="/5BA6E5CE/5BB850BD" Ref="MH301"  Part="1" 
 F 0 "MH301" H 4250 6446 50  0000 L CNN
 F 1 "MountingHole" H 4250 6355 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 4150 6400 50  0001 C CNN
+F 2 "pap:MountingHole_3.2mm_M3" H 4150 6400 50  0001 C CNN
 F 3 "~" H 4150 6400 50  0001 C CNN
 	1    4150 6400
 	1    0    0    -1  

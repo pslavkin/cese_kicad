@@ -171,42 +171,42 @@ Main Power
 $Comp
 L Device:CP C?
 U 1 1 5BDFE583
-P 8100 4050
+P 9550 4050
 AR Path="/5BA6E8FB/5BDFE583" Ref="C?"  Part="1" 
 AR Path="/5BA6E5CE/5BDFE583" Ref="C7"  Part="1" 
-F 0 "C7" H 8218 4096 50  0000 L CNN
-F 1 "100uFx100v" V 8200 3850 50  0000 L CNN
-F 2 "pap:CP_Radial_D13.0mm_P5.00mm" H 8138 3900 50  0001 C CNN
-F 3 "~" H 8100 4050 50  0001 C CNN
-	1    8100 4050
+F 0 "C7" H 9668 4096 50  0000 L CNN
+F 1 "100uFx100v" V 9650 3850 50  0000 L CNN
+F 2 "pap:CP_Radial_D13.0mm_P5.00mm" H 9588 3900 50  0001 C CNN
+F 3 "~" H 9550 4050 50  0001 C CNN
+	1    9550 4050
 	1    0    0    -1  
 $EndComp
 $Comp
 L pap:85V #PWR?
 U 1 1 5BDFE58A
-P 8100 3900
+P 9550 3900
 AR Path="/5BDFE58A" Ref="#PWR?"  Part="1" 
 AR Path="/5BA6E8FB/5BDFE58A" Ref="#PWR?"  Part="1" 
 AR Path="/5BA6E5CE/5BDFE58A" Ref="#PWR0101"  Part="1" 
-F 0 "#PWR0101" H 8100 3800 50  0001 C CNN
-F 1 "85V" H 8100 4175 50  0000 C CNN
-F 2 "" H 8100 3900 50  0001 C CNN
-F 3 "" H 8100 3900 50  0001 C CNN
-	1    8100 3900
+F 0 "#PWR0101" H 9550 3800 50  0001 C CNN
+F 1 "85V" H 9550 4175 50  0000 C CNN
+F 2 "" H 9550 3900 50  0001 C CNN
+F 3 "" H 9550 3900 50  0001 C CNN
+	1    9550 3900
 	1    0    0    -1  
 $EndComp
 $Comp
 L pap:G85V #PWR?
 U 1 1 5BDFE590
-P 8100 4200
+P 9550 4200
 AR Path="/5BDFE590" Ref="#PWR?"  Part="1" 
 AR Path="/5BA6E8FB/5BDFE590" Ref="#PWR?"  Part="1" 
 AR Path="/5BA6E5CE/5BDFE590" Ref="#PWR0102"  Part="1" 
-F 0 "#PWR0102" H 8100 3950 50  0001 C CNN
-F 1 "G85V" H 8105 4027 50  0000 C CNN
-F 2 "" H 8100 4200 50  0001 C CNN
-F 3 "" H 8100 4200 50  0001 C CNN
-	1    8100 4200
+F 0 "#PWR0102" H 9550 3950 50  0001 C CNN
+F 1 "G85V" H 9555 4027 50  0000 C CNN
+F 2 "" H 9550 4200 50  0001 C CNN
+F 3 "" H 9550 4200 50  0001 C CNN
+	1    9550 4200
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
@@ -227,8 +227,8 @@ Wire Notes Line
 	9400 700  9400 2350
 Text Notes 7800 1650 0    50   ~ 0
 El fin de carrera y el step es individual \npor modulo asi que va por fuera \nde la cadena SPI\n
-Text Notes 7600 4800 0    50   ~ 0
-segun las pruebas con 200uF \nsera suficiente para un ripple aceptable. \nUso 2 de 100 para que no quede tan alto
+Text Notes 9300 4750 0    50   ~ 0
+segun pruebas 200uF es \nsuficiente Uso 2 de 100 \npara que no quede tan alto
 Text HLabel 6850 1800 3    50   Input ~ 0
 Busy
 Text Notes 7800 1850 0    50   ~ 0
@@ -237,20 +237,20 @@ Wire Wire Line
 	2750 2350 4000 2350
 Wire Wire Line
 	4000 2350 4000 2050
-Text HLabel 3250 4700 0    50   Input ~ 0
+Text HLabel 1750 4650 0    50   Input ~ 0
 Busy
 $Comp
 L Jumper:SolderJumper_2_Open JP1
 U 1 1 5BE0DECD
-P 3400 4700
-F 0 "JP1" H 3400 4475 50  0000 C CNN
-F 1 "jumper" H 3400 4566 50  0000 C CNN
-F 2 "pap:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 3400 4700 50  0001 C CNN
-F 3 "~" H 3400 4700 50  0001 C CNN
-	1    3400 4700
+P 1900 4650
+F 0 "JP1" H 1900 4425 50  0000 C CNN
+F 1 "jumper" H 1900 4516 50  0000 C CNN
+F 2 "pap:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 1900 4650 50  0001 C CNN
+F 3 "~" H 1900 4650 50  0001 C CNN
+	1    1900 4650
 	-1   0    0    1   
 $EndComp
-Text Notes 3100 5150 0    50   ~ 0
+Text Notes 1600 5100 0    50   ~ 0
 si busy va de step, \nno va en cadena SPI, \nsino en conector \nindividual\n
 Wire Wire Line
 	2750 2350 2750 2050
@@ -260,42 +260,42 @@ Connection ~ 2750 2350
 $Comp
 L Device:CP C?
 U 1 1 5BE152B2
-P 8450 4050
+P 9900 4050
 AR Path="/5BA6E8FB/5BE152B2" Ref="C?"  Part="1" 
 AR Path="/5BA6E5CE/5BE152B2" Ref="C8"  Part="1" 
-F 0 "C8" H 8568 4096 50  0000 L CNN
-F 1 "100uFx100v" V 8600 3900 50  0000 L CNN
-F 2 "pap:CP_Radial_D13.0mm_P5.00mm" H 8488 3900 50  0001 C CNN
-F 3 "~" H 8450 4050 50  0001 C CNN
-	1    8450 4050
+F 0 "C8" H 10018 4096 50  0000 L CNN
+F 1 "100uFx100v" V 10050 3900 50  0000 L CNN
+F 2 "pap:CP_Radial_D13.0mm_P5.00mm" H 9938 3900 50  0001 C CNN
+F 3 "~" H 9900 4050 50  0001 C CNN
+	1    9900 4050
 	1    0    0    -1  
 $EndComp
 $Comp
 L pap:85V #PWR?
 U 1 1 5BE152B8
-P 8450 3900
+P 9900 3900
 AR Path="/5BE152B8" Ref="#PWR?"  Part="1" 
 AR Path="/5BA6E8FB/5BE152B8" Ref="#PWR?"  Part="1" 
 AR Path="/5BA6E5CE/5BE152B8" Ref="#PWR0103"  Part="1" 
-F 0 "#PWR0103" H 8450 3800 50  0001 C CNN
-F 1 "85V" H 8450 4175 50  0000 C CNN
-F 2 "" H 8450 3900 50  0001 C CNN
-F 3 "" H 8450 3900 50  0001 C CNN
-	1    8450 3900
+F 0 "#PWR0103" H 9900 3800 50  0001 C CNN
+F 1 "85V" H 9900 4175 50  0000 C CNN
+F 2 "" H 9900 3900 50  0001 C CNN
+F 3 "" H 9900 3900 50  0001 C CNN
+	1    9900 3900
 	1    0    0    -1  
 $EndComp
 $Comp
 L pap:G85V #PWR?
 U 1 1 5BE152BE
-P 8450 4200
+P 9900 4200
 AR Path="/5BE152BE" Ref="#PWR?"  Part="1" 
 AR Path="/5BA6E8FB/5BE152BE" Ref="#PWR?"  Part="1" 
 AR Path="/5BA6E5CE/5BE152BE" Ref="#PWR0104"  Part="1" 
-F 0 "#PWR0104" H 8450 3950 50  0001 C CNN
-F 1 "G85V" H 8455 4027 50  0000 C CNN
-F 2 "" H 8450 4200 50  0001 C CNN
-F 3 "" H 8450 4200 50  0001 C CNN
-	1    8450 4200
+F 0 "#PWR0104" H 9900 3950 50  0001 C CNN
+F 1 "G85V" H 9905 4027 50  0000 C CNN
+F 2 "" H 9900 4200 50  0001 C CNN
+F 3 "" H 9900 4200 50  0001 C CNN
+	1    9900 4200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -320,7 +320,7 @@ Wire Wire Line
 	6550 4050 6550 4150
 Connection ~ 6550 4150
 Text Notes 5900 5000 0    50   ~ 0
-Contemplo doble pin del conector para\npositivo y doble para negativo para \npermitir encadenar alimentacion y/o suplir\nmas corriente\n
+Contemplo doble pin del conector \npara positivo y doble para \nnegativo para permitir \nencadenar alimentacion y/o \nsuplir mas corriente\n
 $Comp
 L power:PWR_FLAG #FLG?
 U 1 1 5BB665B4
@@ -352,18 +352,18 @@ F 3 "~" H 6750 4150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
-	5750 5200 9350 5200
+	5750 5200 10500 5200
 Wire Notes Line
-	9350 5200 9350 2700
+	10500 5200 10500 2700
 Wire Notes Line
-	9350 2700 5750 2700
+	10500 2700 5750 2700
 Wire Notes Line
 	5750 2700 5750 5200
 Text HLabel 2650 2850 3    50   Input ~ 0
 Reset
 Wire Wire Line
 	2650 2850 2650 2400
-Text Notes 2450 4250 0    197  ~ 39
+Text Notes 1950 4200 0    197  ~ 39
 Pins Selector
 Wire Notes Line
 	1100 3650 5250 3650
@@ -390,7 +390,7 @@ Wire Wire Line
 	3900 2400 3900 2050
 Wire Wire Line
 	3500 2850 3500 2050
-Text Label 3550 4700 0    50   ~ 0
+Text Label 2050 4650 0    50   ~ 0
 Busy_Out
 Text Label 2350 2850 3    50   ~ 0
 Busy_Out
@@ -546,4 +546,90 @@ Wire Wire Line
 	3800 2050 3800 2850
 Text HLabel 2550 2850 3    50   Input ~ 0
 Osc_In
+$Comp
+L Jumper:SolderJumper_2_Open JP301
+U 1 1 5BC269EF
+P 3800 4700
+F 0 "JP301" H 3800 4475 50  0000 C CNN
+F 1 "jumper" H 3800 4566 50  0000 C CNN
+F 2 "pap:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 3800 4700 50  0001 C CNN
+F 3 "~" H 3800 4700 50  0001 C CNN
+	1    3800 4700
+	-1   0    0    1   
+$EndComp
+Text Notes 3350 4950 0    50   ~ 0
+con este puente se evita \nel uso de un stub externo
+Text HLabel 3950 4700 2    50   Input ~ 0
+SDO
+Text Label 3650 4700 2    50   ~ 0
+Sdo_Back
+Text Notes 7400 4700 0    50   ~ 0
+proteccion inversion \nde polaridad\n
+$Comp
+L pap:G85V #PWR?
+U 1 1 5BCA053C
+P 8400 4200
+AR Path="/5BCA053C" Ref="#PWR?"  Part="1" 
+AR Path="/5BA6E8FB/5BCA053C" Ref="#PWR?"  Part="1" 
+AR Path="/5BA6E5CE/5BCA053C" Ref="#PWR0114"  Part="1" 
+F 0 "#PWR0114" H 8400 3950 50  0001 C CNN
+F 1 "G85V" H 8405 4027 50  0000 C CNN
+F 2 "" H 8400 4200 50  0001 C CNN
+F 3 "" H 8400 4200 50  0001 C CNN
+	1    8400 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L pap:G3V3 #PWR0117
+U 1 1 5BCA06DC
+P 8700 4200
+F 0 "#PWR0117" H 8700 3950 50  0001 C CNN
+F 1 "G3V3" H 8705 4027 50  0000 C CNN
+F 2 "" H 8700 4200 50  0001 C CNN
+F 3 "" H 8700 4200 50  0001 C CNN
+	1    8700 4200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:Net-Tie_2 NT301
+U 1 1 5BCA0988
+P 8550 3900
+F 0 "NT301" H 8550 4078 50  0000 C CNN
+F 1 "Net-Tie_2" H 8550 3987 50  0000 C CNN
+F 2 "NetTie:NetTie-2_SMD_Pad0.5mm" H 8550 3900 50  0001 C CNN
+F 3 "~" H 8550 3900 50  0001 C CNN
+	1    8550 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8400 4200 8400 3900
+Wire Wire Line
+	8400 3900 8450 3900
+Wire Wire Line
+	8700 3900 8700 4200
+Wire Wire Line
+	8700 3900 8650 3900
+$Comp
+L Device:Net-Tie_2 NT?
+U 1 1 5BCA6648
+P 8550 3550
+F 0 "NT?" H 8550 3728 50  0000 C CNN
+F 1 "Net-Tie_2" H 8550 3637 50  0000 C CNN
+F 2 "NetTie:NetTie-2_SMD_Pad0.5mm" H 8550 3550 50  0001 C CNN
+F 3 "~" H 8550 3550 50  0001 C CNN
+	1    8550 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8450 3550 8400 3550
+Wire Wire Line
+	8400 3550 8400 3900
+Connection ~ 8400 3900
+Wire Wire Line
+	8650 3550 8700 3550
+Wire Wire Line
+	8700 3550 8700 3900
+Connection ~ 8700 3900
+Text Notes 8300 4800 0    50   ~ 0
+Se conectan desde 2 \npines de g3v3 a \n1 de g85v\n
 $EndSCHEMATC

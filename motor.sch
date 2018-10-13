@@ -672,49 +672,38 @@ F 3 "" H 4200 9300 50  0001 C CNN
 	1    4200 9300
 	1    0    0    -1  
 $EndComp
-$Comp
-L Diode:SM4007 D9
-U 1 1 5C1F5B94
-P 6500 8950
-F 0 "D9" V 6546 8871 50  0000 R CNN
-F 1 "SM4007" V 6455 8871 50  0000 R CNN
-F 2 "pap:D_SMA" H 6500 8775 50  0001 C CNN
-F 3 "http://cdn-reichelt.de/documents/datenblatt/A400/SMD1N400%23DIO.pdf" H 6500 8950 50  0001 C CNN
-	1    6500 8950
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
-	6500 9150 6800 9150
+	5900 9150 6200 9150
 Wire Wire Line
-	6800 9150 6800 8800
+	6200 9150 6200 8650
 $Comp
 L pap:3V3 #PWR?
 U 1 1 5C2DB7F9
-P 6500 8800
+P 5900 8550
 AR Path="/5C2DB7F9" Ref="#PWR?"  Part="1" 
 AR Path="/5BA6E8FB/5C2DB7F9" Ref="#PWR0152"  Part="1" 
-F 0 "#PWR0152" H 6500 8700 50  0001 C CNN
-F 1 "3V3" H 6500 9075 50  0000 C CNN
-F 2 "" H 6500 8800 50  0001 C CNN
-F 3 "" H 6500 8800 50  0001 C CNN
-	1    6500 8800
+F 0 "#PWR0152" H 5900 8450 50  0001 C CNN
+F 1 "3V3" H 5900 8825 50  0000 C CNN
+F 2 "" H 5900 8550 50  0001 C CNN
+F 3 "" H 5900 8550 50  0001 C CNN
+	1    5900 8550
 	1    0    0    -1  
 $EndComp
 $Comp
 L pap:15V #PWR?
 U 1 1 5C2F89A6
-P 6800 8800
+P 6200 8550
 AR Path="/5C2F89A6" Ref="#PWR?"  Part="1" 
 AR Path="/5BA6E8FB/5C2F89A6" Ref="#PWR0153"  Part="1" 
-F 0 "#PWR0153" H 6800 8700 50  0001 C CNN
-F 1 "15V" H 6800 9075 50  0000 C CNN
-F 2 "" H 6800 8800 50  0001 C CNN
-F 3 "" H 6800 8800 50  0001 C CNN
-	1    6800 8800
+F 0 "#PWR0153" H 6200 8450 50  0001 C CNN
+F 1 "15V" H 6200 8825 50  0000 C CNN
+F 2 "" H 6200 8550 50  0001 C CNN
+F 3 "" H 6200 8550 50  0001 C CNN
+	1    6200 8550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6500 9150 6500 9100
+	5900 9150 5900 9050
 Wire Wire Line
 	1400 9250 1400 9350
 Text Label 2100 9400 3    50   ~ 0
@@ -884,8 +873,8 @@ Text Notes 2100 8000 0    197  ~ 39
 Leds debug\n
 Text Notes 2250 9850 0    50   ~ 0
 Contemplo leds para ver movimiento en \nsincro con el motor mas algunos de debug \ncomo flag\n
-Text Notes 6200 9550 0    50   ~ 0
-Recomiendan un diodo \ndesde 3 a 15 en inversa.\n
+Text Notes 5750 9600 0    50   ~ 0
+Recomiendan low drop diodo \ndesde 3 a 15 y 15 a 85 en inversa.\nVer powerstep datasheet Pag. 36 \n
 $Comp
 L Device:D_Zener D12
 U 1 1 5BDAC5ED
@@ -1255,4 +1244,58 @@ F 3 "~" H 4600 8750 50  0001 C CNN
 	1    4600 8750
 	0    -1   -1   0   
 $EndComp
+$Comp
+L Diode:LL4148 D?
+U 1 1 5BC459B0
+P 5900 8900
+AR Path="/5BC459B0" Ref="D?"  Part="1" 
+AR Path="/5BA6E8FB/5BC459B0" Ref="D205"  Part="1" 
+F 0 "D205" V 5946 8821 50  0000 R CNN
+F 1 "LL4148" V 5855 8821 50  0000 R CNN
+F 2 "pap:D_MiniMELF" H 5900 8725 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 5900 8900 50  0001 C CNN
+	1    5900 8900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L pap:85V #PWR?
+U 1 1 5BC5A76A
+P 6600 8550
+AR Path="/5BC5A76A" Ref="#PWR?"  Part="1" 
+AR Path="/5BA6E8FB/5BC5A76A" Ref="#PWR0113"  Part="1" 
+F 0 "#PWR0113" H 6600 8450 50  0001 C CNN
+F 1 "85V" H 6600 8825 50  0000 C CNN
+F 2 "" H 6600 8550 50  0001 C CNN
+F 3 "" H 6600 8550 50  0001 C CNN
+	1    6600 8550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:LL4148 D?
+U 1 1 5BC5A9C8
+P 6400 8900
+AR Path="/5BC5A9C8" Ref="D?"  Part="1" 
+AR Path="/5BA6E8FB/5BC5A9C8" Ref="D206"  Part="1" 
+F 0 "D206" V 6446 8821 50  0000 R CNN
+F 1 "LL4148" V 6355 8821 50  0000 R CNN
+F 2 "pap:D_MiniMELF" H 6400 8725 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 6400 8900 50  0001 C CNN
+	1    6400 8900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5900 8550 5900 8750
+Wire Wire Line
+	6200 8650 6400 8650
+Wire Wire Line
+	6400 8650 6400 8750
+Connection ~ 6200 8650
+Wire Wire Line
+	6200 8650 6200 8550
+Wire Wire Line
+	6400 9050 6400 9150
+Wire Wire Line
+	6400 9150 6600 9150
+Wire Wire Line
+	6600 9150 6600 8550
 $EndSCHEMATC
