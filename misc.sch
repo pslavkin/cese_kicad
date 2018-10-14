@@ -57,27 +57,27 @@ estoy evaluando no usar agujeros por \nusar montaje sostenido por los \nconector
 $Comp
 L pap:logo_dci L?
 U 1 1 5BD8F64F
-P 4500 2650
+P 4550 2450
 AR Path="/5BA6E5CE/5BD8F64F" Ref="L?"  Part="1" 
 AR Path="/5BD8E387/5BD8F64F" Ref="L101"  Part="1" 
-F 0 "L101" H 4628 2696 50  0000 L CNN
-F 1 "logo_dci" H 4628 2605 50  0000 L CNN
-F 2 "pap:logo_neurona_15mm" H 4500 2650 50  0001 C CNN
-F 3 "" H 4500 2650 50  0001 C CNN
-	1    4500 2650
+F 0 "L101" H 4678 2496 50  0000 L CNN
+F 1 "logo_dci" H 4678 2405 50  0000 L CNN
+F 2 "pap:logo_neurona_15mm" H 4550 2450 50  0001 C CNN
+F 3 "" H 4550 2450 50  0001 C CNN
+	1    4550 2450
 	1    0    0    -1  
 $EndComp
 $Comp
 L pap:logo_dci L?
 U 1 1 5BD8F656
-P 4500 2850
+P 4550 2650
 AR Path="/5BA6E5CE/5BD8F656" Ref="L?"  Part="1" 
 AR Path="/5BD8E387/5BD8F656" Ref="L102"  Part="1" 
-F 0 "L102" H 4628 2896 50  0000 L CNN
-F 1 "logo_kicad" H 4628 2805 50  0000 L CNN
-F 2 "Symbol:KiCad-Logo2_6mm_SilkScreen" H 4500 2850 50  0001 C CNN
-F 3 "" H 4500 2850 50  0001 C CNN
-	1    4500 2850
+F 0 "L102" H 4678 2696 50  0000 L CNN
+F 1 "logo_kicad" H 4678 2605 50  0000 L CNN
+F 2 "Symbol:KiCad-Logo2_6mm_SilkScreen" H 4550 2650 50  0001 C CNN
+F 3 "" H 4550 2650 50  0001 C CNN
+	1    4550 2650
 	1    0    0    -1  
 $EndComp
 Text Notes 4150 2300 0    197  ~ 39
@@ -93,49 +93,81 @@ Wire Notes Line
 $Comp
 L pap:logo_dci L?
 U 1 1 5BD8FE28
-P 4500 3350
+P 4550 3050
 AR Path="/5BA6E5CE/5BD8FE28" Ref="L?"  Part="1" 
 AR Path="/5BD8E387/5BD8FE28" Ref="L104"  Part="1" 
-F 0 "L104" H 4628 3396 50  0000 L CNN
-F 1 "logo_cnc" H 4628 3305 50  0000 L CNN
-F 2 "pap:cnc" H 4500 3350 50  0001 C CNN
-F 3 "" H 4500 3350 50  0001 C CNN
-	1    4500 3350
+F 0 "L104" H 4678 3096 50  0000 L CNN
+F 1 "logo_cnc" H 4678 3005 50  0000 L CNN
+F 2 "pap:cnc" H 4550 3050 50  0001 C CNN
+F 3 "" H 4550 3050 50  0001 C CNN
+	1    4550 3050
 	1    0    0    -1  
 $EndComp
-Text Notes 5850 2200 0    197  ~ 39
+Text Notes 5900 2300 0    197  ~ 39
 Fiducials
 $Comp
-L Graphic:Logo_Open_Hardware_Small #LOGO103
+L Graphic:Logo_Open_Hardware_Small LOGO103
 U 1 1 5BD9058D
-P 5950 2900
-F 0 "#LOGO103" H 5950 3175 50  0001 C CNN
-F 1 "Logo_Open_Hardware_Small" H 5950 2675 50  0001 C CNN
-F 2 "Symbol:OSHW-Logo2_14.6x12mm_SilkScreen" H 5950 2900 50  0001 C CNN
-F 3 "~" H 5950 2900 50  0001 C CNN
-	1    5950 2900
+P 4550 3400
+F 0 "LOGO103" H 4550 3675 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 4550 3175 50  0001 C CNN
+F 2 "Symbol:OSHW-Logo2_14.6x12mm_SilkScreen" H 4550 3400 50  0001 C CNN
+F 3 "~" H 4550 3400 50  0001 C CNN
+	1    4550 3400
 	1    0    0    -1  
 $EndComp
 $Comp
-L Graphic:SYM_Flash_Small SYM101
-U 1 1 5BD906E2
-P 5950 3350
-F 0 "SYM101" V 5860 3350 50  0001 C CNN
-F 1 "SYM_Flash_Small" V 6040 3350 50  0001 C CNN
-F 2 "Symbol:Symbol_HighVoltage_Type2_CopperTop_VerySmall" H 5950 3325 50  0001 C CNN
-F 3 "~" H 6350 3250 50  0001 C CNN
-	1    5950 3350
+L pap:logo_dci L?
+U 1 1 5BD90F6D
+P 4550 2850
+AR Path="/5BA6E5CE/5BD90F6D" Ref="L?"  Part="1" 
+AR Path="/5BD8E387/5BD90F6D" Ref="L401"  Part="1" 
+F 0 "L401" H 4678 2896 50  0000 L CNN
+F 1 "logo_recyclado" H 4678 2805 50  0000 L CNN
+F 2 "Symbol:WEEE-Logo_4.2x6mm_SilkScreen" H 4550 2850 50  0001 C CNN
+F 3 "" H 4550 2850 50  0001 C CNN
+	1    4550 2850
 	1    0    0    -1  
 $EndComp
 $Comp
-L Graphic:SYM_Arrow_Small #SYM102
-U 1 1 5BD907CC
-P 6400 2850
-F 0 "#SYM102" H 6400 2910 50  0001 C CNN
-F 1 "SYM_Arrow_Small" H 6410 2800 50  0001 C CNN
-F 2 "" H 6400 2850 50  0001 C CNN
-F 3 "~" H 6400 2850 50  0001 C CNN
-	1    6400 2850
+L pap:MountingHole F3
+U 1 1 5BC2D7FC
+P 6450 3100
+F 0 "F3" H 6550 3146 50  0000 L CNN
+F 1 "Fiducial" H 6550 3055 50  0000 L CNN
+F 2 "pap:Fiducial_1mm_Dia_2mm_Outer" H 6450 3100 50  0001 C CNN
+F 3 "~" H 6450 3100 50  0001 C CNN
+	1    6450 3100
 	1    0    0    -1  
 $EndComp
+$Comp
+L pap:MountingHole F2
+U 1 1 5BC2D9EF
+P 6450 2850
+F 0 "F2" H 6550 2896 50  0000 L CNN
+F 1 "Fiducial" H 6550 2805 50  0000 L CNN
+F 2 "pap:Fiducial_1mm_Dia_2mm_Outer" H 6450 2850 50  0001 C CNN
+F 3 "~" H 6450 2850 50  0001 C CNN
+	1    6450 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L pap:MountingHole F1
+U 1 1 5BC2DA19
+P 6450 2600
+F 0 "F1" H 6550 2646 50  0000 L CNN
+F 1 "Fiducial" H 6550 2555 50  0000 L CNN
+F 2 "pap:Fiducial_1mm_Dia_2mm_Outer" H 6450 2600 50  0001 C CNN
+F 3 "~" H 6450 2600 50  0001 C CNN
+	1    6450 2600
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	5750 3550 7450 3550
+Wire Notes Line
+	7450 3550 7450 1900
+Wire Notes Line
+	7450 1900 5750 1900
+Wire Notes Line
+	5750 1900 5750 3550
 $EndSCHEMATC
