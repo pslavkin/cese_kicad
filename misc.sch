@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:pap-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -75,7 +74,7 @@ AR Path="/5BA6E5CE/5BD8F656" Ref="L?"  Part="1"
 AR Path="/5BD8E387/5BD8F656" Ref="L102"  Part="1" 
 F 0 "L102" H 4678 2696 50  0000 L CNN
 F 1 "logo_kicad" H 4678 2605 50  0000 L CNN
-F 2 "Symbol:KiCad-Logo2_6mm_SilkScreen" H 4550 2650 50  0001 C CNN
+F 2 "pap:KiCad-Logo2_6mm_SilkScreen" H 4550 2650 50  0001 C CNN
 F 3 "" H 4550 2650 50  0001 C CNN
 	1    4550 2650
 	1    0    0    -1  
@@ -111,7 +110,7 @@ U 1 1 5BD9058D
 P 4550 3400
 F 0 "LOGO103" H 4550 3675 50  0001 C CNN
 F 1 "Logo_Open_Hardware_Small" H 4550 3175 50  0001 C CNN
-F 2 "Symbol:OSHW-Logo2_14.6x12mm_SilkScreen" H 4550 3400 50  0001 C CNN
+F 2 "pap:OSHW-Logo2_14.6x12mm_SilkScreen" H 4550 3400 50  0001 C CNN
 F 3 "~" H 4550 3400 50  0001 C CNN
 	1    4550 3400
 	1    0    0    -1  
@@ -124,7 +123,7 @@ AR Path="/5BA6E5CE/5BD90F6D" Ref="L?"  Part="1"
 AR Path="/5BD8E387/5BD90F6D" Ref="L401"  Part="1" 
 F 0 "L401" H 4678 2896 50  0000 L CNN
 F 1 "logo_recyclado" H 4678 2805 50  0000 L CNN
-F 2 "Symbol:WEEE-Logo_4.2x6mm_SilkScreen" H 4550 2850 50  0001 C CNN
+F 2 "pap:WEEE-Logo_4.2x6mm_SilkScreen" H 4550 2850 50  0001 C CNN
 F 3 "" H 4550 2850 50  0001 C CNN
 	1    4550 2850
 	1    0    0    -1  
