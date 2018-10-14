@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 3
+Sheet 3 4
 Title "PaP"
 Date "2018-09-21"
 Rev "1.0"
@@ -363,8 +363,8 @@ Text HLabel 2650 2850 3    50   Input ~ 0
 Reset
 Wire Wire Line
 	2650 2850 2650 2400
-Text Notes 1950 4200 0    197  ~ 39
-Pins Selector
+Text Notes 2150 4250 0    197  ~ 39
+Pins Select
 Wire Notes Line
 	1100 3650 5250 3650
 Wire Notes Line
@@ -407,42 +407,6 @@ Wire Wire Line
 	2450 2500 2450 2850
 Connection ~ 2450 2500
 $Comp
-L Mechanical:MountingHole MH?
-U 1 1 5BB850B6
-P 4150 6650
-AR Path="/5BB850B6" Ref="MH?"  Part="1" 
-AR Path="/5BA6E5CE/5BB850B6" Ref="MH52"  Part="1" 
-F 0 "MH52" H 4250 6696 50  0000 L CNN
-F 1 "MountingHole" H 4250 6605 50  0000 L CNN
-F 2 "pap:MountingHole_3.2mm_M3" H 4150 6650 50  0001 C CNN
-F 3 "~" H 4150 6650 50  0001 C CNN
-	1    4150 6650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole MH?
-U 1 1 5BB850BD
-P 4150 6400
-AR Path="/5BB850BD" Ref="MH?"  Part="1" 
-AR Path="/5BA6E5CE/5BB850BD" Ref="MH51"  Part="1" 
-F 0 "MH51" H 4250 6446 50  0000 L CNN
-F 1 "MountingHole" H 4250 6355 50  0000 L CNN
-F 2 "pap:MountingHole_3.2mm_M3" H 4150 6400 50  0001 C CNN
-F 3 "~" H 4150 6400 50  0001 C CNN
-	1    4150 6400
-	1    0    0    -1  
-$EndComp
-Text Notes 4000 6100 0    197  ~ 39
-Holes
-Wire Notes Line
-	3700 7350 5200 7350
-Wire Notes Line
-	5200 7350 5200 5650
-Wire Notes Line
-	5200 5650 3700 5650
-Wire Notes Line
-	3700 5650 3700 7350
-$Comp
 L pap:G3V3 #PWR0301
 U 1 1 5BB6F1FE
 P 6450 1850
@@ -454,10 +418,10 @@ F 3 "" H 6450 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L pap:RJ45 rJ51
+L pap:RJ45 J54
 U 1 1 5BB97209
 P 2550 1650
-F 0 "rJ51" V 2541 1220 50  0000 R CNN
+F 0 "J54" V 2541 1220 50  0000 R CNN
 F 1 "RJ45" V 2450 1220 50  0000 R CNN
 F 2 "pap:rj45" V 2550 1675 50  0001 C CNN
 F 3 "~" V 2550 1675 50  0001 C CNN
@@ -465,10 +429,10 @@ F 3 "~" V 2550 1675 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L pap:RJ45 rJ52
+L pap:RJ45 J55
 U 1 1 5BB97330
 P 3800 1650
-F 0 "rJ52" V 3791 1220 50  0000 R CNN
+F 0 "J55" V 3791 1220 50  0000 R CNN
 F 1 "RJ45" V 3700 1220 50  0000 R CNN
 F 2 "pap:rj45" V 3800 1675 50  0001 C CNN
 F 3 "~" V 3800 1675 50  0001 C CNN
@@ -477,8 +441,6 @@ F 3 "~" V 3800 1675 50  0001 C CNN
 $EndComp
 Text Notes 1600 7250 0    50   ~ 0
 en dos conectores para facilitar el \nruteo y que no se pueda conectar la \nalimentacion por error
-Text Notes 3750 7150 0    50   ~ 0
-estoy evaluando no usar agujeros por \nusar montaje sostenido por los \nconectores
 Wire Wire Line
 	6550 4150 6750 4150
 Wire Wire Line
@@ -624,10 +586,10 @@ Se conectan desde 2 \npines de g3v3 a \n1 de g85v\n
 Text HLabel 6750 1800 3    50   Input ~ 0
 Flag
 $Comp
-L pap:RJ12 rJ53
+L pap:RJ12 J56
 U 1 1 5BB824FD
 P 6750 1200
-F 0 "rJ53" V 6741 870 50  0000 R CNN
+F 0 "J56" V 6741 870 50  0000 R CNN
 F 1 "RJ12" V 6650 870 50  0000 R CNN
 F 2 "pap:rj12" V 6750 1225 50  0001 C CNN
 F 3 "~" V 6750 1225 50  0001 C CNN
