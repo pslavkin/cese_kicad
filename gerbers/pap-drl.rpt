@@ -1,5 +1,5 @@
-Drill report for /home/pslavkin/kicad_test/pap.kicad_pcb
-Created on Sun 14 Oct 2018 02:52:15 AM -03
+Drill report for /home/pslavkin/kicad/pap.kicad_pcb
+Created on Thu 18 Oct 2018 08:29:27 PM -03
 
 Copper Layer Stackup:
     =============================================================
@@ -10,19 +10,19 @@ Copper Layer Stackup:
 Drill file 'pap-PTH.drl' contains
     plated through holes:
     =============================================================
-    T1  0.50mm  0.020"  (75 holes)
+    T1  0.50mm  0.020"  (76 holes)
     T2  0.70mm  0.028"  (22 holes)
-    T3  0.80mm  0.031"  (4 holes)
+    T3  0.80mm  0.031"  (7 holes)
     T4  0.90mm  0.035"  (20 holes)
     T5  1.20mm  0.047"  (4 holes)
     T6  1.40mm  0.055"  (8 holes)
+    T7  3.20mm  0.126"  (2 holes)
 
-    Total plated holes count 133
+    Total plated holes count 139
 
 
 Drill file 'pap-NPTH.drl' contains
     unplated through holes:
     =============================================================
-    T1  3.20mm  0.126"  (2 holes)
 
-    Total unplated holes count 2
+    Total unplated holes count 0

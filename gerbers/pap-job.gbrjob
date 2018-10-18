@@ -7,7 +7,7 @@
       "Application": "Pcbnew",
       "Version":     "5.0.0-fee4fd1~66~ubuntu16.04.1"
     },
-    "CreationDate":  "2018-10-14T02:51:50-03:00"
+    "CreationDate":  "2018-10-18T20:33:51-03:00"
   },
   "GeneralSpecs":
   {
@@ -15,7 +15,7 @@
     {
       "Name": "pap",
       "GUID": "7061702E6B696361645F706362000000",
-      "Revision": "rev?"
+      "Revision": "1.0"
     },
     "Size":
     {
@@ -29,9 +29,9 @@
   [
     {
       "Layers": "Outer",
-      "PadToPad":  0.200,
-      "PadToTrack":  0.200,
-      "TrackToTrack":  0.200,
+      "PadToPad":  0.250,
+      "PadToTrack":  0.250,
+      "TrackToTrack":  0.250,
       "MinLineWidth":  0.200,
       "TrackToRegion":  0.800,
       "RegionToRegion":  0.800
