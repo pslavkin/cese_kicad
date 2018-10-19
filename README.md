@@ -7,4 +7,4 @@ CESE2018
 Driver motores paso a paso
 ===========================
 
-![Vista 3d](./pic/vista3d_1.jpg)
+![Vista 3d](./pics/vista3d_1.jpg)
