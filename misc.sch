@@ -5,13 +5,13 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 4
-Title "PaP"
+Title "PaP (driver de motor paso a pasos)"
 Date "2018-09-21"
-Rev "1.0"
+Rev "1.1"
 Comp "disenioconingenio"
-Comment1 "Pablo Slavkin"
-Comment2 ""
-Comment3 ""
+Comment1 "Licencia: OSHW 1.0"
+Comment2 "www.disenioconingenio.com.ar"
+Comment3 "Autor: Pablo Slavkin"
 Comment4 ""
 $EndDescr
 $Comp
